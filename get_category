@@ -1,0 +1,23 @@
+{
+  "error_code": "",
+  "data": {
+    "1": {
+      "id_ci": "483633",
+      "name": "Predám šaty",
+      "url": "https://klasikaobec.webyportal.sk/oznamy/predam-saty.html",
+      "date_add": "4.8.2023",
+      "desc": "Predám šaty\r\n",
+      "obr": "",
+      "count": 0
+    },
+    "2": {
+      "id_ci": "483631",
+      "name": "Predám lietadlo",
+      "url": "https://klasikaobec.webyportal.sk/oznamy/predam-lietadlo.html",
+      "date_add": "4.8.2023",
+      "desc": "Predám lietadlo\r\n",
+      "obr": "",
+      "count": 0
+    }
+  }
+}
