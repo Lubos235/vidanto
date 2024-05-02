@@ -25,7 +25,17 @@ output:
   rovnaký výstup ako pri "get_all_cities"
 
 
-3. get_user -> údaje o konkrétnom používateľovi
+3. user_token -> overenie, či používateľ existuje, ak áno, tak vráti jeho ID user, ak nie, tak ho pridá do DB
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/user_token?id_city=4&uid_user=fiXYkga9QTGRf7fnuNNA_H:APA91bHvKpyCYBMKyn7jnTr1_nh-0UszgZa6lTLXa2F3wZJCWigfitwYvOayUX0E1YnpiN4uvVI9RnOyW7BGmvByJJGDYa2yZARCaXVYMVazyWyXOeonYEe2RVvMB_6NCHTVB_Wri5q_;
+input:
+  "id_city"
+  "uid_user"
+output:
+  "id_user": "65"
+
+
+4. get_user -> údaje o konkrétnom používateľovi
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_user?uid_user=fiXYkga9QTGRf7fnuNNA_H:APA91bHvKpyCYBMKyn7jnTr1_nh-0UszgZa6lTLXa2F3wZJCWigfitwYvOayUX0E1YnpiN4uvVI9RnOyW7BGmvByJJGDYa2yZARCaXVYMVazyWyXOeonYEe2RVvMB_6NCHTVB_Wri5q_
 input:
@@ -40,42 +50,7 @@ output:
   "email": "" -> email používateľa, ktorý si môže vyplniť v profile v aplikácii
 
 
-4. set_notification -> aktivuje/deaktivuje všetky notifikácie pre konkrétne mesto, ktoré je používateľovi priradené
-url:
-  https://slovensko.virtualne.sk/mob-app-api-v/set_notification?id_city=1&id_user=1&active=1
-input:
-  "uid_user" -> uid zariadenia/telefónu
-  "id_user"
-  "active" -> aktivovanie/deaktivovanie // 0 => deaktivovanie, 1 => aktivovanie
-output:
-  "id_user": "65" -> id používateľa
-  "uid_user": "fiXYkga9QTGRf7fnuNNA_H:APA91bHvKpyCYBMKyn7jnTr1_nh-0UszgZa6lTLXa2F3wZJCWigfitwYvOayUX0E1YnpiN4uvVI9RnOyW7BGmvByJJGDYa2yZARCaXVYMVazyWyXOeonYEe2RVvMB_6NCHTVB_Wri5q_" -> uid zariadenia/telefónu
-  "verification_number": "1" -> overené tel. číslo SMS-kou, 
-  "id_city": "4"
-  "phone_number": "+421907822893" -> tel. číslo používateľa
-  "address": "" -> adresa používateľa, ktorú si môže vyplniť v profile v aplikácii
-  "email": "" -> email používateľa, ktorý si môže vyplniť v profile v aplikácii
-
-
-5. get_notification -> zoznam všetkých položiek, ktoré sa môžu notifikovať pre všetky mestá, ktoré má používateľ priradené
-url:
-  https://slovensko.virtualne.sk/mob-app-api-v/get_notification?id_user=65&id_cities=1;-;4
-input:
-  "id_user"
-  "id_cities" -> zoznam všetkých ID miest oddelené symbolom ";-;"
-output:
-  "id_city": "1",
-  "notifies": {
-    "1": {
-      "prop": 1 -> id kategórie notifikácie
-      "name": "Oznamy" -> názov
-      "id_cat": "1" -> id kategórie
-      "active": "590" -> id konkrétneho záznamu z db //  "0" => notifikácia je deaktivovaná, "xyz" => ak je to iné číslo ako nula, tak je aktívna
-    }
-  }
-
-
-6. get_menu -> zoznam celého menu pre konkrétne mesto
+5. get_menu -> zoznam celého menu pre konkrétne mesto
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_menu?id_city=1
 input:
@@ -93,7 +68,7 @@ output:
   "url": "" -> url adresa, ak je položka v menu odklik na externú URL adresu
 
 
-7. get_tab_menu -> zoznam celého menu na úvodnej obrazke, tzv. taby pre konkrétne mesto
+6. get_tab_menu -> zoznam celého menu na úvodnej obrazke, tzv. taby pre konkrétne mesto
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_tab_menu?id_city=1
 input:
@@ -102,7 +77,7 @@ output:
   rovnaký výstup ako pri "get_tab_menu"
 
 
-8. get_module -> zoznam celého menu pre konkrétne mesto
+7. get_module -> zoznam celého menu pre konkrétne mesto
 8a: oznamy
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_module?id_city=4&id_module=1
@@ -282,7 +257,24 @@ output:
    "reuslt":"10" -> celkový počet páči sa mi pre danú položku
 
 
-13. set_concrete_notification -> aktivovanie/deaktivovanie notifikovania položky, ak existuje v db záznam, tak ho vymaže a deaktivuje notifikáciu, ak záznam neexistuje, tak ho pridá a aktivuje notifikáciu
+13. set_notification -> aktivuje/deaktivuje všetky notifikácie pre konkrétne mesto, ktoré je používateľovi priradené
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/set_notification?id_city=1&id_user=1&active=1
+input:
+  "uid_user" -> uid zariadenia/telefónu
+  "id_user"
+  "active" -> aktivovanie/deaktivovanie // 0 => deaktivovanie, 1 => aktivovanie
+output:
+  "id_user": "65" -> id používateľa
+  "uid_user": "fiXYkga9QTGRf7fnuNNA_H:APA91bHvKpyCYBMKyn7jnTr1_nh-0UszgZa6lTLXa2F3wZJCWigfitwYvOayUX0E1YnpiN4uvVI9RnOyW7BGmvByJJGDYa2yZARCaXVYMVazyWyXOeonYEe2RVvMB_6NCHTVB_Wri5q_" -> uid zariadenia/telefónu
+  "verification_number": "1" -> overené tel. číslo SMS-kou, 
+  "id_city": "4"
+  "phone_number": "+421907822893" -> tel. číslo používateľa
+  "address": "" -> adresa používateľa, ktorú si môže vyplniť v profile v aplikácii
+  "email": "" -> email používateľa, ktorý si môže vyplniť v profile v aplikácii
+
+
+14. set_concrete_notification -> aktivovanie/deaktivovanie notifikovania položky, ak existuje v db záznam, tak ho vymaže a deaktivuje notifikáciu, ak záznam neexistuje, tak ho pridá a aktivuje notifikáciu
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/set_concrete_notification?id_user=65&prop=1&id_cat=109&id_city=4;
 input:
@@ -294,7 +286,24 @@ output:
    -
 
 
-13. verification_user -> odoslanie kódu na overenie tel. čísla
+15. get_notification -> zoznam všetkých položiek, ktoré sa môžu notifikovať pre všetky mestá, ktoré má používateľ priradené
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/get_notification?id_user=65&id_cities=1;-;4
+input:
+  "id_user"
+  "id_cities" -> zoznam všetkých ID miest oddelené symbolom ";-;"
+output:
+  "id_city": "1",
+  "notifies": {
+    "1": {
+      "prop": 1 -> id kategórie notifikácie
+      "name": "Oznamy" -> názov
+      "id_cat": "1" -> id kategórie
+      "active": "590" -> id konkrétneho záznamu z db //  "0" => notifikácia je deaktivovaná, "xyz" => ak je to iné číslo ako nula, tak je aktívna
+    }
+  }
+
+16. verification_user -> odoslanie kódu na overenie tel. čísla
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/verification_user?id_user=65&phone_number=0910222333;
 input:
@@ -303,7 +312,8 @@ input:
 output:
   -
 
-14. check_verification_user -> overenie tel. čísla pre zapájanie sa používateľa do prieskumov
+
+17. check_verification_user -> overenie tel. čísla pre zapájanie sa používateľa do prieskumov
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/check_verification_user?id_user=65&verification_code=1234;
 input:
@@ -313,17 +323,8 @@ output:
   "result": "1" -> 0 => "nezhoduje sa, neoverené tel. číslo", 1 => "zhoduje sa, úspešne overené tel. číslo"
 
 
-15. user_token -> overenie, či používateľ existuje, ak áno, tak vráti jeho ID user, ak nie, tak ho pridá do DB
-url:
-  https://slovensko.virtualne.sk/mob-app-api-v/user_token?id_city=4&uid_user=fiXYkga9QTGRf7fnuNNA_H:APA91bHvKpyCYBMKyn7jnTr1_nh-0UszgZa6lTLXa2F3wZJCWigfitwYvOayUX0E1YnpiN4uvVI9RnOyW7BGmvByJJGDYa2yZARCaXVYMVazyWyXOeonYEe2RVvMB_6NCHTVB_Wri5q_;
-input:
-  "id_city"
-  "uid_user"
-output:
-  "id_user": "65"
 
-
-16. add_poll_answer -> odošle odpoveď k prieskumu verejnej mienky
+18. add_poll_answer -> odošle odpoveď k prieskumu verejnej mienky
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/user_token?id_user=65&id_question=10&id_answer=50;
 input:
@@ -334,7 +335,7 @@ output:
   -
 
 
-17. add_suggestion -> pridanie komplexnejšieho podnetu
+19. add_suggestion -> pridanie komplexnejšieho podnetu
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/add_suggestion?id_user=65&id_category=10&title=title&location=location&description=description&name=name&phone_number=0910402059&email=email&admin_email=admin_email&id_city=4;
 input:
@@ -351,7 +352,7 @@ output:
   "result": "10" -> id pridaného podnetu
 
 
-17. add_suggestion_images -> pridanie obrázkov pre komplexnejší podnet
+20. add_suggestion_images -> pridanie obrázkov pre komplexnejší podnet
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/add_suggestion_images?id_suggestion=10&image=image&name=name&size=size&data=data&type=type&id_city=4;
 input:
@@ -364,7 +365,7 @@ input:
 output:
   -
 
-18. get_news -> zoznam najnovších položiek na úvodnej stránke
+21. get_news -> zoznam najnovších položiek na úvodnej stránke
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_news?&id_city=4
 input:
@@ -379,12 +380,10 @@ output:
   "count": 0
    "obr": ""
 
-19. get_my_items -> zoznam mojich položiek
+22. get_my_items -> zoznam mojich položiek
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_my_items?&id_city=4&items=483633;-;15425
 input:
   "id_city"
   "items" -> id poloziek, oddelene ";-;"
 output:
-
-
