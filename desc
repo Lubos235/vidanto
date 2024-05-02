@@ -193,3 +193,29 @@ output:
         "data": "1"
       }
   }
+
+8e: prieskum verejnej mienky
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/get_module&id_city=4&id_module=5
+input:
+  "id_city"
+  "id_module"
+output:
+  "id_module_part": "51",
+  "id_module": "44",
+  "id_base_module": "5",
+  "sep": "verification_number",
+  "data": "1"
+
+8f: fotogaleria
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/get_module&id_city=4&id_module=6
+input:
+  "id_city"
+  "id_module"
+output:
+  "id_module_part": "51",
+  "id_module": "44",
+  "id_base_module": "5",
+  "sep": "verification_number",
+  "data": "1"
