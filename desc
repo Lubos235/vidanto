@@ -394,3 +394,15 @@ output:
   "desc": "Predám šaty\r\n"
   "obr": ""
   "count": 0
+
+
+23. detail oznamu - text
+url:
+  https://slovensko.virtualne.sk/mob-data/vidanto-get-data.php?id_city=1&id=1&item=535624&mode=0
+input:
+  "id_city"
+  "id" => separátor // 1 => oznamy, 2 => akcie
+  "item" -> id položky
+  "mode" -> 0 => svetlý režim, 1 => tmavý režim
+output:
+  - html page
