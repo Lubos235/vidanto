@@ -280,3 +280,103 @@ input:
   "item" -> 1 => pridanie, 0 => odobranie
 output:
    "reuslt":"10" -> celkový počet páči sa mi pre danú položku
+
+
+13. set_concrete_notification -> aktivovanie/deaktivovanie notifikovania položky, ak existuje v db záznam, tak ho vymaže a deaktivuje notifikáciu, ak záznam neexistuje, tak ho pridá a aktivuje notifikáciu
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/set_concrete_notification?id_user=65&prop=1&id_cat=109&id_city=4;
+input:
+  "id_user"
+  "prop" -> id kategórie notifikácie
+  "id_cat"
+  "id_city"
+output:
+   -
+
+
+13. verification_user -> odoslanie kódu na overenie tel. čísla
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/verification_user?id_user=65&phone_number=0910222333;
+input:
+  "id_user"
+  "phone_number"
+output:
+  -
+
+14. check_verification_user -> overenie tel. čísla pre zapájanie sa používateľa do prieskumov
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/check_verification_user?id_user=65&verification_code=1234;
+input:
+  "id_user"
+  "verification_code" -> kód na overenie tel. čísla
+output:
+  "result": "1" -> 0 => "nezhoduje sa, neoverené tel. číslo", 1 => "zhoduje sa, úspešne overené tel. číslo"
+
+
+15. user_token -> overenie, či používateľ existuje, ak áno, tak vráti jeho ID user, ak nie, tak ho pridá do DB
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/user_token?id_city=4&uid_user=fiXYkga9QTGRf7fnuNNA_H:APA91bHvKpyCYBMKyn7jnTr1_nh-0UszgZa6lTLXa2F3wZJCWigfitwYvOayUX0E1YnpiN4uvVI9RnOyW7BGmvByJJGDYa2yZARCaXVYMVazyWyXOeonYEe2RVvMB_6NCHTVB_Wri5q_;
+input:
+  "id_city"
+  "uid_user"
+output:
+  "id_user": "65"
+
+
+16. add_poll_answer -> odošle odpoveď k prieskumu verejnej mienky
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/user_token?id_user=65&id_question=10&id_answer=50;
+input:
+  "id_user"
+  "id_question"
+  "id_answer"
+output:
+  -
+
+
+17. add_suggestion -> pridanie komplexnejšieho podnetu
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/add_suggestion?id_user=65&id_category=10&title=title&location=location&description=description&name=name&phone_number=0910402059&email=email&admin_email=admin_email&id_city=4;
+input:
+  "id_category"
+  "title"
+  "location"
+  "description"
+  "name"
+  "phone_number"
+  "email"
+  "admin_email"
+  "id_city"
+output:
+  "result": "10" -> id pridaného podnetu
+
+
+17. add_suggestion_images -> pridanie obrázkov pre komplexnejší podnet
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/add_suggestion_images?id_suggestion=10&image=image&name=name&size=size&data=data&type=type&id_city=4;
+input:
+  "id_suggestion"
+  "image"
+  "name"
+  "size"
+  "type"
+  "id_city"
+output:
+  -
+
+18. get_news -> zoznam najnovších položiek na úvodnej stránke
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/get_news?&id_city=4
+input:
+  "id_suggestion"
+  "image"
+  "name"
+  "size"
+  "type"
+  "id_city"
+output:
+  -
+
+
+
+
