@@ -1,4 +1,4 @@
---- zoznam vsetkych miest pre dany typ ---
+--- zoznam všetkých portálov, ktoré patria do príslušnej kategórie/typu ---
 https://slovensko.virtualne.sk/mob-app-api-v/get_cities_type?id_type=1
 
 {
