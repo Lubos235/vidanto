@@ -1,0 +1,120 @@
+--- kategorie fotogalerie ---
+https://slovensko.virtualne.sk/mob-app-api-v/get_module&id_city=4&id_module=6
+{
+  "error_code": "",
+  "data": {
+    "1": {
+      "id_category": "111",
+      "id_module": "45",
+      "id_base_module": "6",
+      "id_parrent": "56979",
+      "name": "     Brno 2 vorena",
+      "icon": "",
+      "order": "1",
+      "active": "1",
+      "notification": "0",
+      "count": 7,
+      "obr": "https://klasikaobec.webyportal.sk/portals_pictures/i_004998/i_4998534.jpg"
+    },
+    "2": {
+      "id_category": "36",
+      "id_module": "45",
+      "id_base_module": "6",
+      "id_parrent": "56987",
+      "name": "celoslovenska sutaz hasicov 2",
+      "icon": "wfr-briefcase",
+      "order": "2",
+      "active": "1",
+      "notification": "0",
+      "count": 2,
+      "obr": "https://klasikaobec.webyportal.sk/portals_pictures/i_005368/i_5368492.jpg"
+    },
+    "3": {
+      "id_category": "34",
+      "id_module": "45",
+      "id_base_module": "6",
+      "id_parrent": "34268",
+      "name": "Budapest leto 2017",
+      "icon": "wfr-plus-hexagon",
+      "order": "3",
+      "active": "1",
+      "notification": "0",
+      "count": 19,
+      "obr": "https://klasikaobec.webyportal.sk/portals_pictures/i_005690/i_5690345.jpg"
+    },
+    "4": {
+      "id_category": "33",
+      "id_module": "45",
+      "id_base_module": "6",
+      "id_parrent": "33366",
+      "name": "Testovacia fotogaléria",
+      "icon": "wfr-briefcase",
+      "order": "4",
+      "active": "1",
+      "notification": "0",
+      "count": 8,
+      "obr": "https://klasikaobec.webyportal.sk/portals_pictures/i_005085/i_5085905.jpg"
+    }
+  }
+}
+
+
+--- jednotlivé fotky fotogalérie ---
+https://slovensko.virtualne.sk/mob-app-api-v/get_module&id_city=4&id_module=6&id_cat=111
+{
+  "error_code": "",
+  "data": {
+    "1": {
+      "id_category": "111",
+      "id_module": "45",
+      "id_base_module": "6",
+      "id_parrent": "56979",
+      "name": "     Brno 2 vorena",
+      "icon": "",
+      "order": "1",
+      "active": "1",
+      "notification": "0",
+      "count": 7,
+      "obr": "https://klasikaobec.webyportal.sk/portals_pictures/i_004998/i_4998534.jpg"
+    },
+    "2": {
+      "id_category": "36",
+      "id_module": "45",
+      "id_base_module": "6",
+      "id_parrent": "56987",
+      "name": "celoslovenska sutaz hasicov 2",
+      "icon": "wfr-briefcase",
+      "order": "2",
+      "active": "1",
+      "notification": "0",
+      "count": 2,
+      "obr": "https://klasikaobec.webyportal.sk/portals_pictures/i_005368/i_5368492.jpg"
+    },
+    "3": {
+      "id_category": "34",
+      "id_module": "45",
+      "id_base_module": "6",
+      "id_parrent": "34268",
+      "name": "Budapest leto 2017",
+      "icon": "wfr-plus-hexagon",
+      "order": "3",
+      "active": "1",
+      "notification": "0",
+      "count": 19,
+      "obr": "https://klasikaobec.webyportal.sk/portals_pictures/i_005690/i_5690345.jpg"
+    },
+    "4": {
+      "id_category": "33",
+      "id_module": "45",
+      "id_base_module": "6",
+      "id_parrent": "33366",
+      "name": "Testovacia fotogaléria",
+      "icon": "wfr-briefcase",
+      "order": "4",
+      "active": "1",
+      "notification": "0",
+      "count": 8,
+      "obr": "https://klasikaobec.webyportal.sk/portals_pictures/i_005085/i_5085905.jpg"
+    }
+  }
+}
