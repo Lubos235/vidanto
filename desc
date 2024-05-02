@@ -225,3 +225,20 @@ output:
   "notification": "0"
   "count": 7 -> počet fotografií v kategórii
   "obr": "https://klasikaobec.webyportal.sk/portals_pictures/i_004998/i_4998534.jpg" -> obrázok fotogalérie
+
+
+9. get_category -> zoznam jednotlivých položiek v kategórii
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/get_category&id_city=4&id_module=1&id_category=109
+input:
+  "id_city"
+  "id_module"
+  "id_category"
+output:
+  "id_ci": "483633",
+  "name": "Predám šaty",
+  "url": "https://klasikaobec.webyportal.sk/oznamy/predam-saty.html",
+  "date_add": "4.8.2023",
+  "desc": "Predám šaty\r\n",
+  "obr": "",
+  "count": 0
