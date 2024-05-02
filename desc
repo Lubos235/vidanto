@@ -368,15 +368,23 @@ output:
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_news?&id_city=4
 input:
-  "id_suggestion"
-  "image"
-  "name"
-  "size"
-  "type"
   "id_city"
 output:
-  -
+  "id_new": 51018
+  "type": "5" -> 1 => oznamy, 2 => vývoz odpadu, 3 => kalendár podujatí, 4 => podnet samospráve, 5 => prieskum verejnej mienky, 6 => fotogaléria
+  "id_item": "14"
+  "name": "Rozpočet"
+  "date_add": "2.5.2024"
+  "desc": ""
+  "count": 0
+   "obr": ""
 
-
+19. get_my_items -> zoznam mojich položiek
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/get_my_items?&id_city=4&items=483633;-;15425
+input:
+  "id_city"
+  "items" -> id poloziek, oddelene ";-;"
+output:
 
 
