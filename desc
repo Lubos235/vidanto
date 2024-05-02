@@ -73,3 +73,22 @@ output:
       "active": "590" -> id konkrétneho záznamu z db //  "0" => notifikácia je deaktivovaná, "xyz" => ak je to iné číslo ako nula, tak je aktívna
     }
   }
+
+
+6. get_menu -> zoznam celého menu pre konkrétne mesto
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/get_menu?id_city=1
+input:
+  "id_city"
+output:
+  "id_category": "1" -> id kategórie
+  "id_base_module": "1" -> id základného modulu
+  "id_module": "1" -> id modulu
+  "id_parrent": "0" -> "xyz" => ak je tu hocijaké číslo, tak sa jedná o kategóriu napr. oznamov, "0" => je to koncová položka, napr. detail oznamu
+  "name": "Oznamy"
+  "icon": "wfr-megaphone2"
+  "order": "3"
+  "active": "1"
+  "notification": "0"
+  "url": "" -> url adresa, ak je položka v menu odklik na externú URL adresu
+
