@@ -260,3 +260,23 @@ output:
   "obr": "",
   "count": 0
 
+
+11. set_stat -> uloží štatistiku o pridaní/odobraní rezidenčného mesta alebo o načítaní každej obrazovky
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/set_stat&id_city=4&type=1
+input:
+  "id_city"
+  "type" -> 1 => rezidenčný portál, celkový počet, 2 => rezidenčný portál, počet aktuálne aktívnych, 4 => všetky obrazovky
+output:
+  -
+
+
+12. set_like_items -> uloží páči sa mi pre konkrétnu položku
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/set_like_items?type=oznamy&parrent_id=483633&item=1
+input:
+  "type"
+  "parrent_id" -> id položky
+  "item" -> 1 => pridanie, 0 => odobranie
+output:
+   "reuslt":"10" -> celkový počet páči sa mi pre danú položku
