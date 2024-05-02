@@ -103,12 +103,13 @@ output:
 
 
 8. get_module -> zoznam celého menu pre konkrétne mesto
+8a: oznamy
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_module?id_city=4&id_module=1
 input:
   "id_city"
   "id_module" -> 1 => oznamy, 2 => vývoz odpadu, 3 => kalendár podujatí, 4 => podnet samospráve, 5 => prieskum verejnej mienky, 6 => fotogaléria, 7 => úradné hodiny
-output pre id_module = 1:
+output:
   "id_category": "109"
   "id_module": "40"
   "id_base_module": "1"
@@ -118,3 +119,74 @@ output pre id_module = 1:
    "order": "1"
   "active": "1"
   "notification": "0"
+
+8b: vývoz odpadu
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/get_module?id_city=4&id_module=2
+input:
+  "id_city"
+  "id_module"
+output:
+  "module_parts": {
+      "1": {
+        "id_module_part": "43",
+        "id_module": "41",
+        "id_base_module": "2",
+        "sep": "zberny_dvor_url",
+        "data": "https://www.varin.sk/odpady-zberny-dvor.html"
+      }
+    },
+    "places": { -> zoznam všetkých miest, ktoré sú vyplnené v admine
+      "1": {
+        "id": 9139,
+        "name": "celá obec"
+      }
+    },
+    "types": { -> zoznam všetkých typov, ktoré sú vyplnené v admine
+      "1": {
+        "id": 0,
+        "name": "všetky",
+        "color": "#000000"
+      },
+      "2": {
+        "id": 6983,
+        "name": "Kovy",
+        "color": "#d82d1f"
+      }
+    }
+
+8c: vývoz odpadu
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/get_module?id_city=4&id_module=2
+input:
+  "id_city"
+  "id_module"
+output:
+  "module_parts": {
+      "1": {
+        "id_module_part": "43",
+        "id_module": "41",
+        "id_base_module": "2",
+        "sep": "zberny_dvor_url",
+        "data": "https://www.varin.sk/odpady-zberny-dvor.html"
+      }
+    },
+    "places": { -> zoznam všetkých miest, ktoré sú vyplnené v admine
+      "1": {
+        "id": 9139,
+        "name": "celá obec"
+      }
+    },
+    "types": { -> zoznam všetkých typov, ktoré sú vyplnené v admine
+      "1": {
+        "id": 0,
+        "name": "všetky",
+        "color": "#000000"
+      },
+      "2": {
+        "id": 6983,
+        "name": "Kovy",
+        "color": "#d82d1f"
+      }
+    }
+
