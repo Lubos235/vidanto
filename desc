@@ -18,13 +18,24 @@ output:
 
 2. get cities type -> zoznam všetkých portálov, ktoré patria do príslušnej kategórie/typu
 url:
-  https://slovensko.virtualne.sk/mob-app-api-v/get_cities_type&id_type=1
+  https://slovensko.virtualne.sk/mob-app-api-v/get_cities_type?id_type=1
 input:
   "id_type"
 output:
   rovnaký výstup ako pri "get all cities"
 
 
-3. get user -> 
+3. get user -> údaje o konkrétnom používateľovi
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/get_user?uid_user=fiXYkga9QTGRf7fnuNNA_H:APA91bHvKpyCYBMKyn7jnTr1_nh-0UszgZa6lTLXa2F3wZJCWigfitwYvOayUX0E1YnpiN4uvVI9RnOyW7BGmvByJJGDYa2yZARCaXVYMVazyWyXOeonYEe2RVvMB_6NCHTVB_Wri5q_
+input:
+  "uid_user"
+output:
+  "id_user": "65" -> id používateľa
+  "uid_user": "fiXYkga9QTGRf7fnuNNA_H:APA91bHvKpyCYBMKyn7jnTr1_nh-0UszgZa6lTLXa2F3wZJCWigfitwYvOayUX0E1YnpiN4uvVI9RnOyW7BGmvByJJGDYa2yZARCaXVYMVazyWyXOeonYEe2RVvMB_6NCHTVB_Wri5q_" -> uid zariadenia/telefónu
+  "verification_number": "1" -> overené tel. číslo SMS-kou, 
+  "id_city": "4" -> id mesta
+  "phone_number": "+421907822893" -> tel. číslo používateľa
+  "address": "" -> adresa používateľa, ktorú si môže vyplniť v profile v aplikácii
+  "email": "" -> email používateľa, ktorý si môže vyplniť v profile v aplikácii
 
-get_user
