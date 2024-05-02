@@ -1,0 +1,139 @@
+{
+  "error_code": "",
+  "data": {
+    "1": {
+      "id_category": "1",
+      "id_base_module": "1",
+      "id_module": "1",
+      "id_parrent": "0",
+      "name": "Oznamy",
+      "icon": "wfr-megaphone2",
+      "order": "3",
+      "active": "1",
+      "notification": "0",
+      "url": ""
+    },
+    "2": {
+      "id_category": "2",
+      "id_base_module": "2",
+      "id_module": "2",
+      "id_parrent": "0",
+      "name": "Vývoz odpadu",
+      "icon": "wfr-trash-can",
+      "order": "2",
+      "active": "1",
+      "notification": "0",
+      "url": ""
+    },
+    "3": {
+      "id_category": "3",
+      "id_base_module": "3",
+      "id_module": "3",
+      "id_parrent": "0",
+      "name": "Akcie",
+      "icon": "wfr-calendar",
+      "order": "3",
+      "active": "1",
+      "notification": "0",
+      "url": ""
+    },
+    "4": {
+      "id_category": "12",
+      "id_base_module": "1",
+      "id_module": "1",
+      "id_parrent": "10",
+      "name": "Verejne obstarávanie",
+      "icon": "wfr-briefcase",
+      "order": "1",
+      "active": "1",
+      "notification": "0",
+      "url": ""
+    },
+    "5": {
+      "id_category": "5",
+      "id_base_module": "5",
+      "id_module": "5",
+      "id_parrent": "0",
+      "name": "Prieskumy",
+      "icon": "wfr-search-list",
+      "order": "5",
+      "active": "1",
+      "notification": "0",
+      "url": ""
+    },
+    "6": {
+      "id_category": "9",
+      "id_base_module": "1",
+      "id_module": "1",
+      "id_parrent": "909",
+      "name": "Aktuality",
+      "icon": "wfr-megaphone2",
+      "order": "2",
+      "active": "1",
+      "notification": "0",
+      "url": ""
+    },
+    "7": {
+      "id_category": "8",
+      "id_base_module": "8",
+      "id_module": "8",
+      "id_parrent": "0",
+      "name": "Rozšírené informácie",
+      "icon": "wfr-circle-i",
+      "order": "10",
+      "active": "1",
+      "notification": "0",
+      "url": "",
+      "under": {
+        "1": {
+          "id_category": "39",
+          "name": "Druhá položka",
+          "icon": "wfr-seal-alt",
+          "url": "www.druha.sk"
+        },
+        "2": {
+          "id_category": "11",
+          "name": "Tretia položka",
+          "icon": "wfr-flag",
+          "url": "www.zvolen.sk"
+        }
+      }
+    },
+    "8": {
+      "id_category": "6",
+      "id_base_module": "6",
+      "id_module": "6",
+      "id_parrent": "0",
+      "name": "Fotogaléria",
+      "icon": "wfr-image",
+      "order": "7",
+      "active": "1",
+      "notification": "0",
+      "url": ""
+    },
+    "9": {
+      "id_category": "4",
+      "id_base_module": "4",
+      "id_module": "4",
+      "id_parrent": "0",
+      "name": "Podnet pre samosprávu",
+      "icon": "wfr-paper-plane",
+      "order": "4",
+      "active": "1",
+      "notification": "0",
+      "url": ""
+    },
+    "10": {
+      "id_category": "7",
+      "id_base_module": "7",
+      "id_module": "7",
+      "id_parrent": "0",
+      "name": "Kontakt",
+      "icon": "wfr-phone2",
+      "order": "7",
+      "active": "1",
+      "notification": "0",
+      "url": "http://zvolen.virtualne.sk/"
+    }
+  }
+}
