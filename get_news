@@ -1,0 +1,311 @@
+--- zoznam noviniek na úvodnej stránke ---
+https://slovensko.virtualne.sk/mob-app-api-v/get_news?&id_city=4
+{
+  "error_code": "",
+  "data": {
+    "1": {
+      "id_new": 51018,
+      "type": "5",
+      "id_item": "14",
+      "name": "Rozpočet",
+      "date_add": "2.5.2024",
+      "desc": "",
+      "count": 0,
+      "obr": ""
+    },
+    "2": {
+      "id_new": 51017,
+      "type": "5",
+      "id_item": "13",
+      "name": "Rozpočet",
+      "date_add": "2.5.2024",
+      "desc": "",
+      "count": 0,
+      "obr": ""
+    },
+    "3": {
+      "id_new": 49138,
+      "type": "2",
+      "id_item": 0,
+      "name": "Vývoz odpadu",
+      "date_add": "29.4.2024",
+      "desc": "Kovy",
+      "count": 0,
+      "obr": ""
+    },
+    "4": {
+      "id_new": 49040,
+      "type": "2",
+      "id_item": 0,
+      "name": "Vývoz odpadu",
+      "date_add": "27.4.2024",
+      "desc": "Bio",
+      "count": 0,
+      "obr": ""
+    },
+    "5": {
+      "id_new": 48015,
+      "type": "2",
+      "id_item": 0,
+      "name": "Vývoz odpadu",
+      "date_add": "25.4.2024",
+      "desc": "Komunálny odpad",
+      "count": 0,
+      "obr": ""
+    },
+    "6": {
+      "id_new": 44507,
+      "type": "2",
+      "id_item": 0,
+      "name": "Vývoz odpadu",
+      "date_add": "18.4.2024",
+      "desc": "Komunálny odpad",
+      "count": 0,
+      "obr": ""
+    },
+    "7": {
+      "id_new": 43761,
+      "type": "1",
+      "id_item": "534143",
+      "name": "Nový zákon o využívaní umelej inteligencie",
+      "date_add": "16.4.2024",
+      "desc": "Nový zákon o využívaní umelej inteligencie\r\n\r\n\r\n",
+      "parrent_id": "954",
+      "count": "1",
+      "obr": "https://klasikaobec.webyportal.sk/portals_pictures/i_007563/i_7563443.jpg"
+    },
+    "8": {
+      "id_new": 42535,
+      "type": "2",
+      "id_item": 0,
+      "name": "Vývoz odpadu",
+      "date_add": "13.4.2024",
+      "desc": "Bio",
+      "count": 0,
+      "obr": ""
+    },
+    "9": {
+      "id_new": 41880,
+      "type": "2",
+      "id_item": 0,
+      "name": "Vývoz odpadu",
+      "date_add": "11.4.2024",
+      "desc": "Komunálny odpad",
+      "count": 0,
+      "obr": ""
+    },
+    "10": {
+      "id_new": 38942,
+      "type": "2",
+      "id_item": 0,
+      "name": "Vývoz odpadu",
+      "date_add": "4.4.2024",
+      "desc": "Komunálny odpad",
+      "count": 0,
+      "obr": ""
+    },
+    "11": {
+      "id_new": 38179,
+      "type": "5",
+      "id_item": "12",
+      "name": "Kto by sa zúčastnil výmennej burzy?",
+      "date_add": "2.4.2024",
+      "desc": "",
+      "count": 0,
+      "obr": ""
+    },
+    "12": {
+      "id_new": 38154,
+      "type": "3",
+      "id_item": "148807",
+      "name": "Výstava ručných prác",
+      "date_add": "2.4.2024",
+      "desc": "\r\n",
+      "obr": "https://klasikaobec.webyportal.sk/portals_pictures/i_007548/i_7548840.jpg",
+      "count": "2"
+    },
+    "13": {
+      "id_new": 38145,
+      "type": "1",
+      "id_item": "530868",
+      "name": "Účasť na druhom kole prezidentských volieb - odmena",
+      "date_add": "2.4.2024",
+      "desc": "Účasť na druhom kole prezidentských volieb\r\n\r\nKažd",
+      "parrent_id": "2759",
+      "count": "1",
+      "obr": ""
+    },
+    "14": {
+      "id_new": 38096,
+      "type": "5",
+      "id_item": "11",
+      "name": "prieskum notifikacia test",
+      "date_add": "2.4.2024",
+      "desc": "",
+      "count": 0,
+      "obr": ""
+    },
+    "15": {
+      "id_new": 38016,
+      "type": "1",
+      "id_item": "530751",
+      "name": "Testovaci pre not",
+      "date_add": "2.4.2024",
+      "desc": "Cupcake ipsum dolor sit amet toffee jelly beans bo",
+      "parrent_id": "2759",
+      "count": 0,
+      "obr": ""
+    },
+    "16": {
+      "id_new": 37220,
+      "type": "2",
+      "id_item": 0,
+      "name": "Vývoz odpadu",
+      "date_add": "30.3.2024",
+      "desc": "Bio",
+      "count": 0,
+      "obr": ""
+    },
+    "17": {
+      "id_new": 37188,
+      "type": "1",
+      "id_item": "530673",
+      "name": "testovaci 29.3.",
+      "date_add": "29.3.2024",
+      "desc": "Caramels ice cream liquorice icing chocolate bar s",
+      "parrent_id": "2759",
+      "count": 0,
+      "obr": ""
+    },
+    "18": {
+      "id_new": 36842,
+      "type": "2",
+      "id_item": 0,
+      "name": "Vývoz odpadu",
+      "date_add": "28.3.2024",
+      "desc": "Komunálny odpad",
+      "count": 0,
+      "obr": ""
+    },
+    "19": {
+      "id_new": 36228,
+      "type": "2",
+      "id_item": 0,
+      "name": "Vývoz odpadu",
+      "date_add": "27.3.2024",
+      "desc": "Papier",
+      "count": 0,
+      "obr": ""
+    },
+    "20": {
+      "id_new": 35649,
+      "type": "2",
+      "id_item": 0,
+      "name": "Vývoz odpadu",
+      "date_add": "26.3.2024",
+      "desc": "Plasty",
+      "count": 0,
+      "obr": ""
+    },
+    "21": {
+      "id_new": 34157,
+      "type": "2",
+      "id_item": 0,
+      "name": "Vývoz odpadu",
+      "date_add": "25.3.2024",
+      "desc": "Kovy",
+      "count": 0,
+      "obr": ""
+    },
+    "22": {
+      "id_new": 33047,
+      "type": "2",
+      "id_item": 0,
+      "name": "Vývoz odpadu",
+      "date_add": "21.3.2024",
+      "desc": "Komunálny odpad",
+      "count": 0,
+      "obr": ""
+    },
+    "23": {
+      "id_new": 32544,
+      "type": "2",
+      "id_item": 0,
+      "name": "Vývoz odpadu",
+      "date_add": "20.3.2024",
+      "desc": "Papier",
+      "count": 0,
+      "obr": ""
+    },
+    "24": {
+      "id_new": 32112,
+      "type": "2",
+      "id_item": 0,
+      "name": "Vývoz odpadu",
+      "date_add": "19.3.2024",
+      "desc": "Plasty",
+      "count": 0,
+      "obr": ""
+    },
+    "25": {
+      "id_new": 30933,
+      "type": "2",
+      "id_item": 0,
+      "name": "Vývoz odpadu",
+      "date_add": "16.3.2024",
+      "desc": "Bio",
+      "count": 0,
+      "obr": ""
+    },
+    "26": {
+      "id_new": 30190,
+      "type": "2",
+      "id_item": 0,
+      "name": "Vývoz odpadu",
+      "date_add": "14.3.2024",
+      "desc": "Komunálny odpad",
+      "count": 0,
+      "obr": ""
+    },
+    "27": {
+      "id_new": 29669,
+      "type": "2",
+      "id_item": 0,
+      "name": "Vývoz odpadu",
+      "date_add": "13.3.2024",
+      "desc": "Papier",
+      "count": 0,
+      "obr": ""
+    },
+    "28": {
+      "id_new": 29189,
+      "type": "2",
+      "id_item": 0,
+      "name": "Vývoz odpadu",
+      "date_add": "12.3.2024",
+      "desc": "Plasty",
+      "count": 0,
+      "obr": ""
+    },
+    "29": {
+      "id_new": 27098,
+      "type": "2",
+      "id_item": 0,
+      "name": "Vývoz odpadu",
+      "date_add": "6.3.2024",
+      "desc": "Papier",
+      "count": 0,
+      "obr": ""
+    },
+    "30": {
+      "id_new": 26689,
+      "type": "2",
+      "id_item": 0,
+      "name": "Vývoz odpadu",
+      "date_add": "5.3.2024",
+      "desc": "Plasty",
+      "count": 0,
+      "obr": ""
+    }
+  }
+}
