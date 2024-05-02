@@ -155,9 +155,9 @@ output:
       }
     }
 
-8c: vývoz odpadu
+8c: kalendár podujatí
 url:
-  https://slovensko.virtualne.sk/mob-app-api-v/get_module?id_city=4&id_module=2
+  https://slovensko.virtualne.sk/mob-app-api-v/get_module&id_city=4&id_module=3
 input:
   "id_city"
   "id_module"
