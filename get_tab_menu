@@ -1,3 +1,6 @@
+--- zoznam celého menu na úvodnej obrazke, tzv. taby pre konkrétne mesto ---
+https://slovensko.virtualne.sk/mob-app-api-v/get_tab_menu?id_city=1
+
 {
   "error_code": "",
   "data": {
