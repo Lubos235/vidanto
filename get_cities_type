@@ -1,0 +1,53 @@
+{
+  "error_code": "",
+  "data": {
+    "1": {
+      "id_city": "7",
+      "id_portal": "931",
+      "id_type": "1",
+      "name": "Púchov",
+      "url": "https://www.puchov.sk",
+      "latitude": "49.1185458120",
+      "longitude": "18.3248519897",
+      "obr": "https://www.puchov.sk/data/931/931-erb.png",
+      "default_obr": "",
+      "color": "0"
+    },
+    "2": {
+      "id_city": "8",
+      "id_portal": "125",
+      "id_type": "1",
+      "name": "Revúca",
+      "url": "https://www.revuca.sk",
+      "latitude": "48.6852375502",
+      "longitude": "20.1178550720",
+      "obr": "https://www.revuca.sk/data/125/125-erb.png",
+      "default_obr": "",
+      "color": "0"
+    },
+    "3": {
+      "id_city": "9",
+      "id_portal": "1310",
+      "id_type": "1",
+      "name": "Turany",
+      "url": "https://www.turany.sk",
+      "latitude": "49.1145588664",
+      "longitude": "19.0366649628",
+      "obr": "https://www.turany.sk/data/1310/1310-erb.png",
+      "default_obr": "",
+      "color": "3"
+    },
+    "4": {
+      "id_city": "1",
+      "id_portal": "512",
+      "id_type": "1",
+      "name": "Zvolen",
+      "url": "https://www.zvolen.sk",
+      "latitude": "48.5751306448",
+      "longitude": "19.1345787048",
+      "obr": "https://www.zvolen.sk/data/512/512-erb.png",
+      "default_obr": "",
+      "color": "1"
+    }
+  }
+}
