@@ -1,3 +1,6 @@
+--- zoznam vsetkych miest pre dany typ ---
+https://slovensko.virtualne.sk/mob-app-api-v/get_cities_type?id_type=1
+
 {
   "error_code": "",
   "data": {
