@@ -22,7 +22,7 @@ url:
 input:
   "id_type"
 output:
-  rovnaký výstup ako pri "get all cities"
+  rovnaký výstup ako pri "get_all_cities"
 
 
 3. get_user -> údaje o konkrétnom používateľovi
@@ -92,3 +92,11 @@ output:
   "notification": "0"
   "url": "" -> url adresa, ak je položka v menu odklik na externú URL adresu
 
+
+6. get_tab_menu -> zoznam celého menu na úvodnej obrazke, tzv. taby pre konkrétne mesto
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/get_tab_menu?id_city=1
+input:
+  "id_city"
+output:
+  rovnaký výstup ako pri "get_tab_menu"
