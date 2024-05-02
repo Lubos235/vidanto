@@ -115,3 +115,26 @@ https://slovensko.virtualne.sk/mob-app-api-v/get_module&id_city=4&id_module=5&id
     }
   }
 }
+
+
+--- detail konkrétneho prieskumu, otázky prieskumu ---
+https://slovensko.virtualne.sk/mob-app-api-v/get_module&id_city=4&id_module=5&id_poll=12
+{
+  "error_code": "",
+  "data": {
+    "1": {
+      "id_question": 26,
+      "name": "Zúčastnili by ste sa výmennej burzy? ",
+      "type": "3",
+      "default_value": "Áno\r\nNie",
+      "properties": "1"
+    },
+    "2": {
+      "id_question": 27,
+      "name": "Aký druh tovaru by ste uvítali vymieňať? ",
+      "type": "4",
+      "default_value": "Knihy\r\nOblečenie\r\nKuchynské potreby\r\nBytové doplnky\r\nManžela\r\nPriesady a rastliny\r\nNábytok\r\nŠperky",
+      "properties": "1"
+    }
+  }
+}
