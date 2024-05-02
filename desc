@@ -93,10 +93,28 @@ output:
   "url": "" -> url adresa, ak je položka v menu odklik na externú URL adresu
 
 
-6. get_tab_menu -> zoznam celého menu na úvodnej obrazke, tzv. taby pre konkrétne mesto
+7. get_tab_menu -> zoznam celého menu na úvodnej obrazke, tzv. taby pre konkrétne mesto
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_tab_menu?id_city=1
 input:
   "id_city"
 output:
   rovnaký výstup ako pri "get_tab_menu"
+
+
+8. get_module -> zoznam celého menu pre konkrétne mesto
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/get_module?id_city=4&id_module=1
+input:
+  "id_city"
+  "id_module" -> 1 => oznamy, 2 => vývoz odpadu, 3 => kalendár podujatí, 4 => podnet samospráve, 5 => prieskum verejnej mienky, 6 => fotogaléria, 7 => úradné hodiny
+output pre id_module = 1:
+  "id_category": "109"
+  "id_module": "40"
+  "id_base_module": "1"
+  "id_parrent": "15923"
+  "name": "Susedská burza"
+  "icon": "wfr-folk"
+   "order": "1"
+  "active": "1"
+  "notification": "0"
