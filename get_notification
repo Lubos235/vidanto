@@ -1,3 +1,6 @@
+--- zoznam všetkých položiek, ktoré sa môžu notifikovať pre všetky mestá, ktoré má používateľ priradené ---
+https://slovensko.virtualne.sk/mob-app-api-v/get_notification?id_user=65&id_cities=1;-;4
+
 {
   "error_code": "",
   "data": {
