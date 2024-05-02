@@ -1,0 +1,712 @@
+{
+  "error_code": "",
+  "data": {
+    "2024-05-02": {
+      "date": "2.5",
+      "date_text": "Št",
+      "actions": []
+    },
+    "2024-05-03": {
+      "date": "3.5",
+      "date_text": "Pi",
+      "actions": []
+    },
+    "2024-05-04": {
+      "date": "4.5",
+      "date_text": "So",
+      "actions": []
+    },
+    "2024-05-05": {
+      "date": "5.5",
+      "date_text": "Ne",
+      "actions": []
+    },
+    "2024-05-06": {
+      "date": "6.5",
+      "date_text": "Po",
+      "actions": []
+    },
+    "2024-05-07": {
+      "date": "7.5",
+      "date_text": "Ut",
+      "actions": []
+    },
+    "2024-05-08": {
+      "date": "8.5",
+      "date_text": "St",
+      "actions": []
+    },
+    "2024-05-09": {
+      "date": "9.5",
+      "date_text": "Št",
+      "actions": []
+    },
+    "2024-05-10": {
+      "date": "10.5",
+      "date_text": "Pi",
+      "actions": []
+    },
+    "2024-05-11": {
+      "date": "11.5",
+      "date_text": "So",
+      "actions": []
+    },
+    "2024-05-12": {
+      "date": "12.5",
+      "date_text": "Ne",
+      "actions": []
+    },
+    "2024-05-13": {
+      "date": "13.5",
+      "date_text": "Po",
+      "actions": []
+    },
+    "2024-05-14": {
+      "date": "14.5",
+      "date_text": "Ut",
+      "actions": {
+        "3": {
+          "id_action": 148813,
+          "id_cat": 2291,
+          "name": "Športový týždeň",
+          "place": "Klasika obec",
+          "obr": "",
+          "count": 0
+        }
+      }
+    },
+    "2024-05-15": {
+      "date": "15.5",
+      "date_text": "St",
+      "actions": []
+    },
+    "2024-05-16": {
+      "date": "16.5",
+      "date_text": "Št",
+      "actions": []
+    },
+    "2024-05-17": {
+      "date": "17.5",
+      "date_text": "Pi",
+      "actions": {
+        "2": {
+          "id_action": 148810,
+          "id_cat": 5244,
+          "name": "Hry firmy webygroup",
+          "place": "Webygroup",
+          "obr": "https://klasikaobec.webyportal.sk/portals_pictures/i_007548/i_7548855.png",
+          "count": 0
+        }
+      }
+    },
+    "2024-05-18": {
+      "date": "18.5",
+      "date_text": "So",
+      "actions": []
+    },
+    "2024-05-19": {
+      "date": "19.5",
+      "date_text": "Ne",
+      "actions": []
+    },
+    "2024-05-20": {
+      "date": "20.5",
+      "date_text": "Po",
+      "actions": []
+    },
+    "2024-05-21": {
+      "date": "21.5",
+      "date_text": "Ut",
+      "actions": []
+    },
+    "2024-05-22": {
+      "date": "22.5",
+      "date_text": "St",
+      "actions": []
+    },
+    "2024-05-23": {
+      "date": "23.5",
+      "date_text": "Št",
+      "actions": []
+    },
+    "2024-05-24": {
+      "date": "24.5",
+      "date_text": "Pi",
+      "actions": []
+    },
+    "2024-05-25": {
+      "date": "25.5",
+      "date_text": "So",
+      "actions": []
+    },
+    "2024-05-26": {
+      "date": "26.5",
+      "date_text": "Ne",
+      "actions": []
+    },
+    "2024-05-27": {
+      "date": "27.5",
+      "date_text": "Po",
+      "actions": []
+    },
+    "2024-05-28": {
+      "date": "28.5",
+      "date_text": "Ut",
+      "actions": []
+    },
+    "2024-05-29": {
+      "date": "29.5",
+      "date_text": "St",
+      "actions": []
+    },
+    "2024-05-30": {
+      "date": "30.5",
+      "date_text": "Št",
+      "actions": []
+    },
+    "2024-05-31": {
+      "date": "31.5",
+      "date_text": "Pi",
+      "actions": []
+    },
+    "2024-06-01": {
+      "date": "1.6",
+      "date_text": "So",
+      "actions": []
+    },
+    "2024-06-02": {
+      "date": "2.6",
+      "date_text": "Ne",
+      "actions": []
+    },
+    "2024-06-03": {
+      "date": "3.6",
+      "date_text": "Po",
+      "actions": []
+    },
+    "2024-06-04": {
+      "date": "4.6",
+      "date_text": "Ut",
+      "actions": []
+    },
+    "2024-06-05": {
+      "date": "5.6",
+      "date_text": "St",
+      "actions": []
+    },
+    "2024-06-06": {
+      "date": "6.6",
+      "date_text": "Št",
+      "actions": []
+    },
+    "2024-06-07": {
+      "date": "7.6",
+      "date_text": "Pi",
+      "actions": []
+    },
+    "2024-06-08": {
+      "date": "8.6",
+      "date_text": "So",
+      "actions": []
+    },
+    "2024-06-09": {
+      "date": "9.6",
+      "date_text": "Ne",
+      "actions": []
+    },
+    "2024-06-10": {
+      "date": "10.6",
+      "date_text": "Po",
+      "actions": []
+    },
+    "2024-06-11": {
+      "date": "11.6",
+      "date_text": "Ut",
+      "actions": []
+    },
+    "2024-06-12": {
+      "date": "12.6",
+      "date_text": "St",
+      "actions": []
+    },
+    "2024-06-13": {
+      "date": "13.6",
+      "date_text": "Št",
+      "actions": []
+    },
+    "2024-06-14": {
+      "date": "14.6",
+      "date_text": "Pi",
+      "actions": []
+    },
+    "2024-06-15": {
+      "date": "15.6",
+      "date_text": "So",
+      "actions": []
+    },
+    "2024-06-16": {
+      "date": "16.6",
+      "date_text": "Ne",
+      "actions": []
+    },
+    "2024-06-17": {
+      "date": "17.6",
+      "date_text": "Po",
+      "actions": []
+    },
+    "2024-06-18": {
+      "date": "18.6",
+      "date_text": "Ut",
+      "actions": []
+    },
+    "2024-06-19": {
+      "date": "19.6",
+      "date_text": "St",
+      "actions": []
+    },
+    "2024-06-20": {
+      "date": "20.6",
+      "date_text": "Št",
+      "actions": []
+    },
+    "2024-06-21": {
+      "date": "21.6",
+      "date_text": "Pi",
+      "actions": []
+    },
+    "2024-06-22": {
+      "date": "22.6",
+      "date_text": "So",
+      "actions": []
+    },
+    "2024-06-23": {
+      "date": "23.6",
+      "date_text": "Ne",
+      "actions": []
+    },
+    "2024-06-24": {
+      "date": "24.6",
+      "date_text": "Po",
+      "actions": []
+    },
+    "2024-06-25": {
+      "date": "25.6",
+      "date_text": "Ut",
+      "actions": []
+    },
+    "2024-06-26": {
+      "date": "26.6",
+      "date_text": "St",
+      "actions": []
+    },
+    "2024-06-27": {
+      "date": "27.6",
+      "date_text": "Št",
+      "actions": []
+    },
+    "2024-06-28": {
+      "date": "28.6",
+      "date_text": "Pi",
+      "actions": []
+    },
+    "2024-06-29": {
+      "date": "29.6",
+      "date_text": "So",
+      "actions": []
+    },
+    "2024-06-30": {
+      "date": "30.6",
+      "date_text": "Ne",
+      "actions": []
+    },
+    "2024-07-01": {
+      "date": "1.7",
+      "date_text": "Po",
+      "actions": []
+    },
+    "2024-07-02": {
+      "date": "2.7",
+      "date_text": "Ut",
+      "actions": []
+    },
+    "2024-07-03": {
+      "date": "3.7",
+      "date_text": "St",
+      "actions": []
+    },
+    "2024-07-04": {
+      "date": "4.7",
+      "date_text": "Št",
+      "actions": []
+    },
+    "2024-07-05": {
+      "date": "5.7",
+      "date_text": "Pi",
+      "actions": []
+    },
+    "2024-07-06": {
+      "date": "6.7",
+      "date_text": "So",
+      "actions": []
+    },
+    "2024-07-07": {
+      "date": "7.7",
+      "date_text": "Ne",
+      "actions": []
+    },
+    "2024-07-08": {
+      "date": "8.7",
+      "date_text": "Po",
+      "actions": []
+    },
+    "2024-07-09": {
+      "date": "9.7",
+      "date_text": "Ut",
+      "actions": []
+    },
+    "2024-07-10": {
+      "date": "10.7",
+      "date_text": "St",
+      "actions": []
+    },
+    "2024-07-11": {
+      "date": "11.7",
+      "date_text": "Št",
+      "actions": []
+    },
+    "2024-07-12": {
+      "date": "12.7",
+      "date_text": "Pi",
+      "actions": []
+    },
+    "2024-07-13": {
+      "date": "13.7",
+      "date_text": "So",
+      "actions": []
+    },
+    "2024-07-14": {
+      "date": "14.7",
+      "date_text": "Ne",
+      "actions": []
+    },
+    "2024-07-15": {
+      "date": "15.7",
+      "date_text": "Po",
+      "actions": []
+    },
+    "2024-07-16": {
+      "date": "16.7",
+      "date_text": "Ut",
+      "actions": []
+    },
+    "2024-07-17": {
+      "date": "17.7",
+      "date_text": "St",
+      "actions": []
+    },
+    "2024-07-18": {
+      "date": "18.7",
+      "date_text": "Št",
+      "actions": []
+    },
+    "2024-07-19": {
+      "date": "19.7",
+      "date_text": "Pi",
+      "actions": []
+    },
+    "2024-07-20": {
+      "date": "20.7",
+      "date_text": "So",
+      "actions": []
+    },
+    "2024-07-21": {
+      "date": "21.7",
+      "date_text": "Ne",
+      "actions": []
+    },
+    "2024-07-22": {
+      "date": "22.7",
+      "date_text": "Po",
+      "actions": []
+    },
+    "2024-07-23": {
+      "date": "23.7",
+      "date_text": "Ut",
+      "actions": []
+    },
+    "2024-07-24": {
+      "date": "24.7",
+      "date_text": "St",
+      "actions": []
+    },
+    "2024-07-25": {
+      "date": "25.7",
+      "date_text": "Št",
+      "actions": []
+    },
+    "2024-07-26": {
+      "date": "26.7",
+      "date_text": "Pi",
+      "actions": []
+    },
+    "2024-07-27": {
+      "date": "27.7",
+      "date_text": "So",
+      "actions": []
+    },
+    "2024-07-28": {
+      "date": "28.7",
+      "date_text": "Ne",
+      "actions": []
+    },
+    "2024-07-29": {
+      "date": "29.7",
+      "date_text": "Po",
+      "actions": []
+    },
+    "2024-07-30": {
+      "date": "30.7",
+      "date_text": "Ut",
+      "actions": []
+    },
+    "2024-07-31": {
+      "date": "31.7",
+      "date_text": "St",
+      "actions": []
+    },
+    "2024-08-01": {
+      "date": "1.8",
+      "date_text": "Št",
+      "actions": []
+    },
+    "2024-08-02": {
+      "date": "2.8",
+      "date_text": "Pi",
+      "actions": []
+    },
+    "2024-08-03": {
+      "date": "3.8",
+      "date_text": "So",
+      "actions": []
+    },
+    "2024-08-04": {
+      "date": "4.8",
+      "date_text": "Ne",
+      "actions": []
+    },
+    "2024-08-05": {
+      "date": "5.8",
+      "date_text": "Po",
+      "actions": []
+    },
+    "2024-08-06": {
+      "date": "6.8",
+      "date_text": "Ut",
+      "actions": []
+    },
+    "2024-08-07": {
+      "date": "7.8",
+      "date_text": "St",
+      "actions": []
+    },
+    "2024-08-08": {
+      "date": "8.8",
+      "date_text": "Št",
+      "actions": []
+    },
+    "2024-08-09": {
+      "date": "9.8",
+      "date_text": "Pi",
+      "actions": []
+    },
+    "2024-08-10": {
+      "date": "10.8",
+      "date_text": "So",
+      "actions": []
+    },
+    "2024-08-11": {
+      "date": "11.8",
+      "date_text": "Ne",
+      "actions": []
+    },
+    "2024-08-12": {
+      "date": "12.8",
+      "date_text": "Po",
+      "actions": []
+    },
+    "2024-08-13": {
+      "date": "13.8",
+      "date_text": "Ut",
+      "actions": []
+    },
+    "2024-08-14": {
+      "date": "14.8",
+      "date_text": "St",
+      "actions": []
+    },
+    "2024-08-15": {
+      "date": "15.8",
+      "date_text": "Št",
+      "actions": []
+    },
+    "2024-08-16": {
+      "date": "16.8",
+      "date_text": "Pi",
+      "actions": []
+    },
+    "2024-08-17": {
+      "date": "17.8",
+      "date_text": "So",
+      "actions": []
+    },
+    "2024-08-18": {
+      "date": "18.8",
+      "date_text": "Ne",
+      "actions": []
+    },
+    "2024-08-19": {
+      "date": "19.8",
+      "date_text": "Po",
+      "actions": []
+    },
+    "2024-08-20": {
+      "date": "20.8",
+      "date_text": "Ut",
+      "actions": []
+    },
+    "2024-08-21": {
+      "date": "21.8",
+      "date_text": "St",
+      "actions": []
+    },
+    "2024-08-22": {
+      "date": "22.8",
+      "date_text": "Št",
+      "actions": []
+    },
+    "2024-08-23": {
+      "date": "23.8",
+      "date_text": "Pi",
+      "actions": []
+    },
+    "2024-08-24": {
+      "date": "24.8",
+      "date_text": "So",
+      "actions": []
+    },
+    "2024-08-25": {
+      "date": "25.8",
+      "date_text": "Ne",
+      "actions": []
+    },
+    "2024-08-26": {
+      "date": "26.8",
+      "date_text": "Po",
+      "actions": []
+    },
+    "2024-08-27": {
+      "date": "27.8",
+      "date_text": "Ut",
+      "actions": []
+    },
+    "2024-08-28": {
+      "date": "28.8",
+      "date_text": "St",
+      "actions": []
+    },
+    "2024-08-29": {
+      "date": "29.8",
+      "date_text": "Št",
+      "actions": []
+    },
+    "2024-08-30": {
+      "date": "30.8",
+      "date_text": "Pi",
+      "actions": []
+    },
+    "2024-08-31": {
+      "date": "31.8",
+      "date_text": "So",
+      "actions": []
+    },
+    "2024-09-01": {
+      "date": "1.9",
+      "date_text": "Ne",
+      "actions": []
+    },
+    "2024-09-02": {
+      "date": "2.9",
+      "date_text": "Po",
+      "actions": []
+    },
+    "2024-09-03": {
+      "date": "3.9",
+      "date_text": "Ut",
+      "actions": []
+    },
+    "2024-09-04": {
+      "date": "4.9",
+      "date_text": "St",
+      "actions": []
+    },
+    "2024-09-05": {
+      "date": "5.9",
+      "date_text": "Št",
+      "actions": []
+    },
+    "2024-09-06": {
+      "date": "6.9",
+      "date_text": "Pi",
+      "actions": []
+    },
+    "2024-09-07": {
+      "date": "7.9",
+      "date_text": "So",
+      "actions": []
+    },
+    "2024-09-08": {
+      "date": "8.9",
+      "date_text": "Ne",
+      "actions": []
+    },
+    "2024-09-09": {
+      "date": "9.9",
+      "date_text": "Po",
+      "actions": []
+    },
+    "2024-09-10": {
+      "date": "10.9",
+      "date_text": "Ut",
+      "actions": []
+    },
+    "2024-09-11": {
+      "date": "11.9",
+      "date_text": "St",
+      "actions": []
+    },
+    "2024-09-12": {
+      "date": "12.9",
+      "date_text": "Št",
+      "actions": []
+    },
+    "2024-09-13": {
+      "date": "13.9",
+      "date_text": "Pi",
+      "actions": []
+    },
+    "2024-09-14": {
+      "date": "14.9",
+      "date_text": "So",
+      "actions": {
+        "1": {
+          "id_action": 148808,
+          "id_cat": 768,
+          "name": "Výstava fotografií prírody - kópia",
+          "place": "Kultúrny dom",
+          "obr": "https://klasikaobec.webyportal.sk/portals_pictures/i_007548/i_7548842.jpg",
+          "count": 0
+        }
+      }
+    }
+  }
+}
