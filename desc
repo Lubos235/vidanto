@@ -1,0 +1,16 @@
+1. get all cities -> zoznam všetkých portálov, ktoré majú vygenerovaný admin pre mobilnú aplikáciu Vidanto
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/get_all_cities
+input:
+  -
+output:
+  "id_city": "6" -> id mesta
+  "id_portal": "90" -> id portálu, pod ktorým ho evidujeme u nás v systéme
+  "id_type": "2" -> typ portálu // 1 - mesto, 2 - obec, 3 - inštitúcia
+  "name": "Očová" -> názov portálu
+  "url": "https://www.ocova.sk" -> url adresa portálu
+  "latitude": "48.6002616882" -> zemepisná šírka
+  "longitude": "19.2888088226" -> zemepisná dĺžka
+  "obr": "https://www.ocova.sk/data/90/90-erb.png" -> erb obce
+  "default_obr": "" -> info obrázok, ktorý admin obce môže nahrať v admine a bude sa zobrazovať namiesto erbu pri napr. zozname oznamoch pre daný oznam, ak nie je vyplnený obrázok v ozname
+  "color": "2" -> farebnosť/vzhľad vizuálu aplikácie // "1" - blue, #0065B3, "2" - red, #D0190F", "3" - green, #36B300, "4" - yellow, #D5D907
