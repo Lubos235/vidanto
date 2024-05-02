@@ -1,0 +1,82 @@
+{
+  "error_code": "",
+  "data": {
+    "1": {
+      "id_category": "109",
+      "id_module": "40",
+      "id_base_module": "1",
+      "id_parrent": "15923",
+      "name": "Susedská burza",
+      "icon": "wfr-folk",
+      "order": "1",
+      "active": "1",
+      "notification": "0"
+    },
+    "2": {
+      "id_category": "108",
+      "id_module": "40",
+      "id_base_module": "1",
+      "id_parrent": "15921",
+      "name": "Farské oznamy",
+      "icon": "wfr-church",
+      "order": "2",
+      "active": "1",
+      "notification": "0"
+    },
+    "3": {
+      "id_category": "107",
+      "id_module": "40",
+      "id_base_module": "1",
+      "id_parrent": "15919",
+      "name": "Smútočné oznámenia",
+      "icon": "wfr-cross-christian",
+      "order": "3",
+      "active": "1",
+      "notification": "0"
+    },
+    "4": {
+      "id_category": "21",
+      "id_module": "40",
+      "id_base_module": "1",
+      "id_parrent": "2759",
+      "name": "Aktuality",
+      "icon": "wfr-browser-alt",
+      "order": "4",
+      "active": "1",
+      "notification": "0"
+    },
+    "5": {
+      "id_category": "110",
+      "id_module": "40",
+      "id_base_module": "1",
+      "id_parrent": "956",
+      "name": "Elektronická úradná tabuľa",
+      "icon": "wfr-scale",
+      "order": "6",
+      "active": "1",
+      "notification": "0"
+    },
+    "6": {
+      "id_category": "23",
+      "id_module": "40",
+      "id_base_module": "1",
+      "id_parrent": "15920",
+      "name": "Výberové konania",
+      "icon": "wfr-tags",
+      "order": "7",
+      "active": "1",
+      "notification": "0"
+    },
+    "7": {
+      "id_category": "22",
+      "id_module": "40",
+      "id_base_module": "1",
+      "id_parrent": "954",
+      "name": "Čo je nové v zákone",
+      "icon": "wfr-paragraph",
+      "order": "8",
+      "active": "1",
+      "notification": "0"
+    }
+  }
+}
