@@ -1,0 +1,101 @@
+{
+  "error_code": "",
+  "data": {
+    "1": {
+      "id_city": "6",
+      "id_portal": "90",
+      "id_type": "2",
+      "name": "Očová",
+      "url": "https://www.ocova.sk",
+      "latitude": "48.6002616882",
+      "longitude": "19.2888088226",
+      "obr": "https://www.ocova.sk/data/90/90-erb.png",
+      "default_obr": "",
+      "color": "2"
+    },
+    "2": {
+      "id_city": "7",
+      "id_portal": "931",
+      "id_type": "1",
+      "name": "Púchov",
+      "url": "https://www.puchov.sk",
+      "latitude": "49.1185458120",
+      "longitude": "18.3248519897",
+      "obr": "https://www.puchov.sk/data/931/931-erb.png",
+      "default_obr": "",
+      "color": "0"
+    },
+    "3": {
+      "id_city": "5",
+      "id_portal": "568",
+      "id_type": "2",
+      "name": "Preseľany",
+      "url": "https://www.obecpreselany.sk",
+      "latitude": "48.4546546936",
+      "longitude": "18.0996189117",
+      "obr": "https://www.obecpreselany.sk/data/568/568-erb.png",
+      "default_obr": "",
+      "color": "0"
+    },
+    "4": {
+      "id_city": "8",
+      "id_portal": "125",
+      "id_type": "1",
+      "name": "Revúca",
+      "url": "https://www.revuca.sk",
+      "latitude": "48.6852375502",
+      "longitude": "20.1178550720",
+      "obr": "https://www.revuca.sk/data/125/125-erb.png",
+      "default_obr": "",
+      "color": "0"
+    },
+    "5": {
+      "id_city": "9",
+      "id_portal": "1310",
+      "id_type": "1",
+      "name": "Turany",
+      "url": "https://www.turany.sk",
+      "latitude": "49.1145588664",
+      "longitude": "19.0366649628",
+      "obr": "https://www.turany.sk/data/1310/1310-erb.png",
+      "default_obr": "",
+      "color": "3"
+    },
+    "6": {
+      "id_city": "10",
+      "id_portal": "873",
+      "id_type": "2",
+      "name": "Varín",
+      "url": "https://www.varin.sk",
+      "latitude": "49.2014732361",
+      "longitude": "18.8704376221",
+      "obr": "https://www.varin.sk/data/873/873-erb.png",
+      "default_obr": "",
+      "color": "0"
+    },
+    "7": {
+      "id_city": "4",
+      "id_portal": "94",
+      "id_type": "2",
+      "name": "Vzor Klasika obec",
+      "url": "https://klasikaobec.webyportal.sk",
+      "latitude": "48.5760068641",
+      "longitude": "19.1460266113",
+      "obr": "https://klasikaobec.webyportal.sk/data/94/94-erb.png",
+      "default_obr": "",
+      "color": "0"
+    },
+    "8": {
+      "id_city": "1",
+      "id_portal": "512",
+      "id_type": "1",
+      "name": "Zvolen",
+      "url": "https://www.zvolen.sk",
+      "latitude": "48.5751306448",
+      "longitude": "19.1345787048",
+      "obr": "https://www.zvolen.sk/data/512/512-erb.png",
+      "default_obr": "",
+      "color": "1"
+    }
+  }
+}
