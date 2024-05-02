@@ -1,0 +1,32 @@
+{
+  "error_code": "",
+  "data": {
+    "module_parts": {
+      "1": {
+        "id_module_part": "43",
+        "id_module": "41",
+        "id_base_module": "2",
+        "sep": "zberny_dvor_url",
+        "data": "https://www.varin.sk/odpady-zberny-dvor.html"
+      }
+    },
+    "places": {
+      "1": {
+        "id": 9139,
+        "name": "celá obec"
+      }
+    },
+    "types": {
+      "1": {
+        "id": 0,
+        "name": "všetky",
+        "color": "#000000"
+      },
+      "2": {
+        "id": 6983,
+        "name": "Kovy",
+        "color": "#d82d1f"
+      }
+    }
+  }
+}
