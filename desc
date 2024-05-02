@@ -382,8 +382,8 @@ output:
 
 22. get_my_items -> zoznam mojich položiek
 url:
-  https://slovensko.virtualne.sk/mob-app-api-v/get_my_items?&id_city=4&items=483633;-;15425
+  https://slovensko.virtualne.sk/mob-app-api-v/get_my_items?&id_city=4&items=[{"value":535624,"sep":"oznamy"}]
 input:
   "id_city"
-  "items" -> id poloziek, oddelene ";-;"
+  "items" -> sep => typ, value => id polozky
 output:
