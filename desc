@@ -387,3 +387,10 @@ input:
   "id_city"
   "items" -> sep => typ, value => id polozky
 output:
+  "id_ci": "483633"
+  "name": "Predám šaty"
+  "url": "https://klasikaobec.webyportal.sk/oznamy/predam-saty.html"
+  "date_add": "4.8.2023"
+  "desc": "Predám šaty\r\n"
+  "obr": ""
+  "count": 0
