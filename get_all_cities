@@ -1,3 +1,6 @@
+--- zoznam vsetkych miest ---
+https://slovensko.virtualne.sk/mob-app-api-v/get_all_cities
+
 {
   "error_code": "",
   "data": {
