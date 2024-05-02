@@ -242,3 +242,21 @@ output:
   "desc": "Predám šaty\r\n",
   "obr": "",
   "count": 0
+
+
+10. get_item -> detail polozky
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/get_item&id_city=4&id_module=1&id_item=483633
+input:
+  "id_city"
+  "id_module"
+  "id_item"
+output:
+  "id_ci": "483633",
+  "name": "Predám šaty",
+  "url": "https://klasikaobec.webyportal.sk/oznamy/predam-saty.html",
+  "date_add": "4.8.2023",
+  "desc": "Predám šaty\r\n",
+  "obr": "",
+  "count": 0
+
