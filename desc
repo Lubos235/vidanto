@@ -162,31 +162,34 @@ input:
   "id_city"
   "id_module"
 output:
-  "module_parts": {
-      "1": {
-        "id_module_part": "43",
-        "id_module": "41",
-        "id_base_module": "2",
-        "sep": "zberny_dvor_url",
-        "data": "https://www.varin.sk/odpady-zberny-dvor.html"
-      }
-    },
-    "places": { -> zoznam všetkých miest, ktoré sú vyplnené v admine
-      "1": {
-        "id": 9139,
-        "name": "celá obec"
-      }
-    },
-    "types": { -> zoznam všetkých typov, ktoré sú vyplnené v admine
-      "1": {
-        "id": 0,
-        "name": "všetky",
-        "color": "#000000"
-      },
-      "2": {
-        "id": 6983,
-        "name": "Kovy",
-        "color": "#d82d1f"
+  "2024-05-17": {
+      "date": "17.5",
+      "date_text": "Pi",
+      "actions": {
+        "2": {
+          "id_action": 148810,
+          "id_cat": 5244,
+          "name": "Hry firmy webygroup",
+          "place": "Webygroup",
+          "obr": "https://klasikaobec.webyportal.sk/portals_pictures/i_007548/i_7548855.png",
+          "count": 0
+        }
       }
     }
 
+8d: podnet samospráve
+url:
+  https://slovensko.virtualne.sk/mob-app-api-v/get_module&id_city=4&id_module=4
+input:
+  "id_city"
+  "id_module"
+output:
+  "module_parts": { -> nastavenie modulu
+      "1": {
+        "id_module_part": "49",
+        "id_module": "43",
+        "id_base_module": "4",
+        "sep": "default_statue",
+        "data": "1"
+      }
+  }
