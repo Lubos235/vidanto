@@ -30,3 +30,287 @@
     }
   }
 }
+
+
+--- concrete place ---
+https://slovensko.virtualne.sk/mob-app-api-v/get_module&id_city=4&id_module=2&id_place=9139
+
+{
+  "error_code": "",
+  "data": {
+    "1": {
+      "date": "2.5",
+      "date_text": "Št",
+      "types": []
+    },
+    "2": {
+      "date": "3.5",
+      "date_text": "Pi",
+      "types": []
+    },
+    "3": {
+      "date": "4.5",
+      "date_text": "So",
+      "types": []
+    },
+    "4": {
+      "date": "5.5",
+      "date_text": "Ne",
+      "types": []
+    },
+    "5": {
+      "date": "6.5",
+      "date_text": "Po",
+      "types": []
+    },
+    "6": {
+      "date": "7.5",
+      "date_text": "Ut",
+      "types": []
+    },
+    "7": {
+      "date": "8.5",
+      "date_text": "St",
+      "types": []
+    },
+    "8": {
+      "date": "9.5",
+      "date_text": "Št",
+      "types": []
+    },
+    "9": {
+      "date": "10.5",
+      "date_text": "Pi",
+      "types": []
+    },
+    "10": {
+      "date": "11.5",
+      "date_text": "So",
+      "types": []
+    },
+    "11": {
+      "date": "12.5",
+      "date_text": "Ne",
+      "types": []
+    },
+    "12": {
+      "date": "13.5",
+      "date_text": "Po",
+      "types": []
+    },
+    "13": {
+      "date": "14.5",
+      "date_text": "Ut",
+      "types": []
+    },
+    "14": {
+      "date": "15.5",
+      "date_text": "St",
+      "types": []
+    },
+    "15": {
+      "date": "16.5",
+      "date_text": "Št",
+      "types": []
+    },
+    "16": {
+      "date": "17.5",
+      "date_text": "Pi",
+      "types": []
+    },
+    "17": {
+      "date": "18.5",
+      "date_text": "So",
+      "types": []
+    },
+    "18": {
+      "date": "19.5",
+      "date_text": "Ne",
+      "types": []
+    },
+    "19": {
+      "date": "20.5",
+      "date_text": "Po",
+      "types": []
+    },
+    "20": {
+      "date": "21.5",
+      "date_text": "Ut",
+      "types": []
+    },
+    "21": {
+      "date": "22.5",
+      "date_text": "St",
+      "types": []
+    },
+    "22": {
+      "date": "23.5",
+      "date_text": "Št",
+      "types": []
+    },
+    "23": {
+      "date": "24.5",
+      "date_text": "Pi",
+      "types": []
+    },
+    "24": {
+      "date": "25.5",
+      "date_text": "So",
+      "types": []
+    },
+    "25": {
+      "date": "26.5",
+      "date_text": "Ne",
+      "types": []
+    },
+    "26": {
+      "date": "27.5",
+      "date_text": "Po",
+      "types": {
+        "1": 6983
+      }
+    }
+  }
+}
+
+
+--- concrete type ---
+https://slovensko.virtualne.sk/mob-app-api-v/get_module&id_city=4&id_module=2&id_type=6983
+
+{
+  "error_code": "",
+  "data": {
+    "1": {
+      "date": "2.5",
+      "date_text": "Št",
+      "types": []
+    },
+    "2": {
+      "date": "3.5",
+      "date_text": "Pi",
+      "types": []
+    },
+    "3": {
+      "date": "4.5",
+      "date_text": "So",
+      "types": []
+    },
+    "4": {
+      "date": "5.5",
+      "date_text": "Ne",
+      "types": []
+    },
+    "5": {
+      "date": "6.5",
+      "date_text": "Po",
+      "types": []
+    },
+    "6": {
+      "date": "7.5",
+      "date_text": "Ut",
+      "types": []
+    },
+    "7": {
+      "date": "8.5",
+      "date_text": "St",
+      "types": []
+    },
+    "8": {
+      "date": "9.5",
+      "date_text": "Št",
+      "types": []
+    },
+    "9": {
+      "date": "10.5",
+      "date_text": "Pi",
+      "types": []
+    },
+    "10": {
+      "date": "11.5",
+      "date_text": "So",
+      "types": []
+    },
+    "11": {
+      "date": "12.5",
+      "date_text": "Ne",
+      "types": []
+    },
+    "12": {
+      "date": "13.5",
+      "date_text": "Po",
+      "types": []
+    },
+    "13": {
+      "date": "14.5",
+      "date_text": "Ut",
+      "types": []
+    },
+    "14": {
+      "date": "15.5",
+      "date_text": "St",
+      "types": []
+    },
+    "15": {
+      "date": "16.5",
+      "date_text": "Št",
+      "types": []
+    },
+    "16": {
+      "date": "17.5",
+      "date_text": "Pi",
+      "types": []
+    },
+    "17": {
+      "date": "18.5",
+      "date_text": "So",
+      "types": []
+    },
+    "18": {
+      "date": "19.5",
+      "date_text": "Ne",
+      "types": []
+    },
+    "19": {
+      "date": "20.5",
+      "date_text": "Po",
+      "types": []
+    },
+    "20": {
+      "date": "21.5",
+      "date_text": "Ut",
+      "types": []
+    },
+    "21": {
+      "date": "22.5",
+      "date_text": "St",
+      "types": []
+    },
+    "22": {
+      "date": "23.5",
+      "date_text": "Št",
+      "types": []
+    },
+    "23": {
+      "date": "24.5",
+      "date_text": "Pi",
+      "types": []
+    },
+    "24": {
+      "date": "25.5",
+      "date_text": "So",
+      "types": []
+    },
+    "25": {
+      "date": "26.5",
+      "date_text": "Ne",
+      "types": []
+    },
+    "26": {
+      "date": "27.5",
+      "date_text": "Po",
+      "types": {
+        "1": 6983
+      }
+    }
+  }
+}
