@@ -64,10 +64,12 @@ input:
   "id_user"
   "id_cities" -> zoznam všetkých ID miest oddelené symbolom ";-;"
 output:
-  "id_user": "65" -> id používateľa
-  "uid_user": "fiXYkga9QTGRf7fnuNNA_H:APA91bHvKpyCYBMKyn7jnTr1_nh-0UszgZa6lTLXa2F3wZJCWigfitwYvOayUX0E1YnpiN4uvVI9RnOyW7BGmvByJJGDYa2yZARCaXVYMVazyWyXOeonYEe2RVvMB_6NCHTVB_Wri5q_" -> uid zariadenia/telefónu
-  "verification_number": "1" -> overené tel. číslo SMS-kou, 
-  "id_city": "4"
-  "phone_number": "+421907822893" -> tel. číslo používateľa
-  "address": "" -> adresa používateľa, ktorú si môže vyplniť v profile v aplikácii
-  "email": "" -> email používateľa, ktorý si môže vyplniť v profile v aplikácii
+  "id_city": "1",
+  "notifies": {
+    "1": {
+      "prop": 1 -> id kategórie notifikácie
+      "name": "Oznamy" -> názov
+      "id_cat": "1" -> id kategórie
+      "active": "590" -> id konkrétneho záznamu z db //  "0" => notifikácia je deaktivovaná, "xyz" => ak je to iné číslo ako nula, tak je aktívna
+    }
+  }
