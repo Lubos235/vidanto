@@ -1,3 +1,29 @@
+--- kategórie podujatí ---
+https://slovensko.virtualne.sk/mob-app-api-v/get_module&id_city=4&id_module=3
+{
+  "error_code": "",
+  "data": {
+    "1": {
+      "id": 0,
+      "name": "všetky"
+    },
+    "2": {
+      "id": 768,
+      "name": "Spoločenské podujatia"
+    },
+    "3": {
+      "id": 5244,
+      "name": "Kultúrne akcie"
+    },
+    "4": {
+      "id": 2291,
+      "name": "Športové akcie"
+    }
+  }
+}
+
+--- zoznam podujatí podľa kategórie ---
+https://slovensko.virtualne.sk/mob-app-api-v/get_module&id_city=4&id_module=3&id_kat=0
 {
   "error_code": "",
   "data": {
