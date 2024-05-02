@@ -1,0 +1,122 @@
+--- nastavenie modulu ---
+https://slovensko.virtualne.sk/mob-app-api-v/get_module&id_city=4&id_module=4
+{
+  "error_code": "",
+  "data": {
+    "module_parts": {
+      "1": {
+        "id_module_part": "49",
+        "id_module": "43",
+        "id_base_module": "4",
+        "sep": "default_statue",
+        "data": "1"
+      },
+      "2": {
+        "id_module_part": "48",
+        "id_module": "43",
+        "id_base_module": "4",
+        "sep": "type_form",
+        "data": "0"
+      },
+      "3": {
+        "id_module_part": "46",
+        "id_module": "43",
+        "id_base_module": "4",
+        "sep": "podmienky_url",
+        "data": "https://www.varin.sk/-mobilna-aplikacia-.html"
+      },
+      "4": {
+        "id_module_part": "47",
+        "id_module": "43",
+        "id_base_module": "4",
+        "sep": "podnety_mail_adress",
+        "data": "gavurova@webygroup.sk"
+      },
+      "5": {
+        "id_module_part": "58",
+        "id_module": "43",
+        "id_base_module": "4",
+        "sep": "udaje_url",
+        "data": "https://klasikaobec.webyportal.sk/ochrana-osobnych-udajov.html"
+      }
+    }
+  }
+}
+
+
+--- kategorie, stavy ---
+https://slovensko.virtualne.sk/mob-app-api-v/get_module&id_city=4&id_module=4&id_type=1
+{
+  "error_code": "",
+  "data": {
+    "categories": {
+      "1": {
+        "id": 0,
+        "name": "všetky",
+        "count": 1
+      },
+      "2": {
+        "id": 1,
+        "name": "Cesty a chodníky (cesty, cyklotrasy, schody, oplotenia)",
+        "count": "6"
+      },
+      "3": {
+        "id": 2,
+        "name": "Zeleň a odpady (stromy, neporiadok, znečisťovanie)",
+        "count": "1"
+      },
+      "4": {
+        "id": 3,
+        "name": "Doprava (značky, semafory, prechody)",
+        "count": "1"
+      },
+      "5": {
+        "id": 4,
+        "name": "Automobily (parkovanie, odstavené vozidlá)",
+        "count": "4"
+      },
+      "6": {
+        "id": 5,
+        "name": "Verejné služby (osvetlenie, kanalizácia, lavičky, zastávky)",
+        "count": "2"
+      },
+      "7": {
+        "id": 6,
+        "name": "Verejný poriadok (stavby, reklama, vandalizmus)",
+        "count": "0"
+      }
+    },
+    "statues": {
+      "1": {
+        "id": 1,
+        "name": "Neprijatý",
+        "color": "FFFFFF"
+      },
+      "2": {
+        "id": 2,
+        "name": "Prijatý",
+        "color": "D9D9FF"
+      },
+      "3": {
+        "id": 3,
+        "name": "Odovzdaný",
+        "color": "BFEAFF"
+      },
+      "4": {
+        "id": 4,
+        "name": "V riešení",
+        "color": "BFFFEA"
+      },
+      "5": {
+        "id": 5,
+        "name": "Vyriešený",
+        "color": "BFFFBF"
+      },
+      "6": {
+        "id": 6,
+        "name": "Zamietnutý",
+        "color": "FFCCCC"
+      }
+    }
+  }
+}
