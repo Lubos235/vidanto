@@ -57,7 +57,7 @@ input:
   "id_city"
 output:
   "id_category": "1" -> id kategórie
-  "id_base_module": "1" -> id základného modulu
+  "id_base_module": "1" -> id základného modulu -> 1 => oznamy, 2 => vývoz odpadu, 3 => kalendár podujatí, 4 => podnet samospráve, 5 => prieskum verejnej mienky, 6 => fotogaléria
   "id_module": "1" -> id modulu
   "id_parrent": "0" -> "xyz" => ak je tu hocijaké číslo, tak sa jedná o kategóriu napr. oznamov, "0" => je to koncová položka, napr. detail oznamu
   "name": "Oznamy"
@@ -83,7 +83,7 @@ url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_module?id_city=4&id_module=1
 input:
   "id_city"
-  "id_module" -> 1 => oznamy, 2 => vývoz odpadu, 3 => kalendár podujatí, 4 => podnet samospráve, 5 => prieskum verejnej mienky, 6 => fotogaléria
+  "id_module"
 output:
   "id_category": "109"
   "id_module": "40"
