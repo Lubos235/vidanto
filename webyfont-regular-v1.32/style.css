@@ -1,0 +1,480 @@
+@font-face {
+  font-family: 'webyfont-regular';
+  src:  url('fonts/webyfont-regular.eot?hzm6jy');
+  src:  url('fonts/webyfont-regular.eot?hzm6jy#iefix') format('embedded-opentype'),
+    url('fonts/webyfont-regular.ttf?hzm6jy') format('truetype'),
+    url('fonts/webyfont-regular.woff?hzm6jy') format('woff'),
+    url('fonts/webyfont-regular.svg?hzm6jy#webyfont-regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="wfr-"], [class*=" wfr-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'webyfont-regular' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wfr-analytics1:before {
+  content: "\e900";
+}
+.wfr-arrow-alt-down:before {
+  content: "\e934";
+}
+.wfr-arrow-alt-left:before {
+  content: "\e935";
+}
+.wfr-arrow-alt-right:before {
+  content: "\e936";
+}
+.wfr-arrow-alt-up:before {
+  content: "\e937";
+}
+.wfr-arrow-circle-down2:before {
+  content: "\e901";
+}
+.wfr-arrow-circle-left2:before {
+  content: "\e902";
+}
+.wfr-arrow-circle-right2:before {
+  content: "\e903";
+}
+.wfr-arrow-circle-up2:before {
+  content: "\e904";
+}
+.wfr-arrow-down2:before {
+  content: "\e905";
+}
+.wfr-arrow-left2:before {
+  content: "\e906";
+}
+.wfr-arrow-right2:before {
+  content: "\e907";
+}
+.wfr-arrow-up2:before {
+  content: "\e908";
+}
+.wfr-at:before {
+  content: "\e975";
+}
+.wfr-banknote:before {
+  content: "\e976";
+}
+.wfr-bars-alt:before {
+  content: "\e951";
+}
+.wfr-bars2:before {
+  content: "\e909";
+}
+.wfr-bell:before {
+  content: "\e952";
+}
+.wfr-biohazard:before {
+  content: "\e977";
+}
+.wfr-blazon-w1:before {
+  content: "\e90a";
+}
+.wfr-book:before {
+  content: "\e978";
+}
+.wfr-bookmark:before {
+  content: "\e953";
+}
+.wfr-briefcase:before {
+  content: "\e954";
+}
+.wfr-browser-alt:before {
+  content: "\e92b";
+}
+.wfr-browser1:before {
+  content: "\e90b";
+}
+.wfr-building:before {
+  content: "\e955";
+}
+.wfr-building-tree:before {
+  content: "\e956";
+}
+.wfr-buildings2:before {
+  content: "\e90c";
+}
+.wfr-bus:before {
+  content: "\e957";
+}
+.wfr-calendar:before {
+  content: "\e945";
+}
+.wfr-calendar-alt:before {
+  content: "\e979";
+}
+.wfr-candle:before {
+  content: "\e958";
+}
+.wfr-caret-down:before {
+  content: "\e940";
+}
+.wfr-caret-left:before {
+  content: "\e941";
+}
+.wfr-caret-right:before {
+  content: "\e942";
+}
+.wfr-caret-up:before {
+  content: "\e943";
+}
+.wfr-check-circle2:before {
+  content: "\e90e";
+}
+.wfr-check11:before {
+  content: "\e90d";
+}
+.wfr-church:before {
+  content: "\e97a";
+}
+.wfr-circle-half-stroke:before {
+  content: "\e959";
+}
+.wfr-circle-i:before {
+  content: "\e95a";
+}
+.wfr-circle-question:before {
+  content: "\e95b";
+}
+.wfr-clock2:before {
+  content: "\e90f";
+}
+.wfr-code2:before {
+  content: "\e910";
+}
+.wfr-cog:before {
+  content: "\e93b";
+}
+.wfr-connection:before {
+  content: "\e920";
+}
+.wfr-cross:before {
+  content: "\e921";
+}
+.wfr-cross-christian:before {
+  content: "\e97b";
+}
+.wfr-cube:before {
+  content: "\e946";
+}
+.wfr-cursor:before {
+  content: "\e922";
+}
+.wfr-cursor-alt:before {
+  content: "\e923";
+}
+.wfr-devices:before {
+  content: "\e924";
+}
+.wfr-domain:before {
+  content: "\e925";
+}
+.wfr-election:before {
+  content: "\e97c";
+}
+.wfr-envelope2:before {
+  content: "\e911";
+}
+.wfr-eu:before {
+  content: "\e97d";
+}
+.wfr-euro:before {
+  content: "\e97e";
+}
+.wfr-exchange:before {
+  content: "\e95c";
+}
+.wfr-exclamation-circle:before {
+  content: "\e947";
+}
+.wfr-eye:before {
+  content: "\e92c";
+}
+.wfr-facebook:before {
+  content: "\e97f";
+}
+.wfr-film:before {
+  content: "\e974";
+}
+.wfr-flag:before {
+  content: "\e948";
+}
+.wfr-flag-alt:before {
+  content: "\e980";
+}
+.wfr-folk:before {
+  content: "\e981";
+}
+.wfr-football:before {
+  content: "\e982";
+}
+.wfr-gavel:before {
+  content: "\e926";
+}
+.wfr-globe:before {
+  content: "\e983";
+}
+.wfr-globe-alt:before {
+  content: "\e984";
+}
+.wfr-hammer:before {
+  content: "\e949";
+}
+.wfr-hardhat:before {
+  content: "\e94a";
+}
+.wfr-headset1:before {
+  content: "\e912";
+}
+.wfr-heart:before {
+  content: "\e95d";
+}
+.wfr-home2:before {
+  content: "\e913";
+}
+.wfr-image:before {
+  content: "\e95e";
+}
+.wfr-language:before {
+  content: "\e985";
+}
+.wfr-lightbulb:before {
+  content: "\e927";
+}
+.wfr-link:before {
+  content: "\e92d";
+}
+.wfr-list:before {
+  content: "\e95f";
+}
+.wfr-location:before {
+  content: "\e986";
+}
+.wfr-lock:before {
+  content: "\e92e";
+}
+.wfr-login2:before {
+  content: "\e914";
+}
+.wfr-map:before {
+  content: "\e960";
+}
+.wfr-map-marker:before {
+  content: "\e938";
+}
+.wfr-map-marker-house:before {
+  content: "\e961";
+}
+.wfr-masks-theater:before {
+  content: "\e962";
+}
+.wfr-megaphone2:before {
+  content: "\e915";
+}
+.wfr-microphone:before {
+  content: "\e987";
+}
+.wfr-mobile:before {
+  content: "\e92f";
+}
+.wfr-newspaper:before {
+  content: "\e988";
+}
+.wfr-pacifier:before {
+  content: "\e989";
+}
+.wfr-palette:before {
+  content: "\e930";
+}
+.wfr-paper-plane:before {
+  content: "\e963";
+}
+.wfr-paperclip:before {
+  content: "\e944";
+}
+.wfr-paragraph:before {
+  content: "\e98a";
+}
+.wfr-paw:before {
+  content: "\e98b";
+}
+.wfr-pen:before {
+  content: "\e964";
+}
+.wfr-pharma:before {
+  content: "\e965";
+}
+.wfr-phone2:before {
+  content: "\e916";
+}
+.wfr-plus:before {
+  content: "\e950";
+}
+.wfr-plus-alt:before {
+  content: "\e966";
+}
+.wfr-plus-circle:before {
+  content: "\e94b";
+}
+.wfr-plus-hexagon:before {
+  content: "\e94c";
+}
+.wfr-pointer:before {
+  content: "\e967";
+}
+.wfr-printer:before {
+  content: "\e98c";
+}
+.wfr-puzzle1:before {
+  content: "\e917";
+}
+.wfr-radiation:before {
+  content: "\e98d";
+}
+.wfr-reload:before {
+  content: "\e931";
+}
+.wfr-scale:before {
+  content: "\e98e";
+}
+.wfr-screen:before {
+  content: "\e93c";
+}
+.wfr-seal-alt:before {
+  content: "\e928";
+}
+.wfr-seal2:before {
+  content: "\e918";
+}
+.wfr-search-hardhat:before {
+  content: "\e968";
+}
+.wfr-search-list:before {
+  content: "\e969";
+}
+.wfr-search-user:before {
+  content: "\e96a";
+}
+.wfr-search2:before {
+  content: "\e919";
+}
+.wfr-server1:before {
+  content: "\e91a";
+}
+.wfr-share:before {
+  content: "\e96b";
+}
+.wfr-shield:before {
+  content: "\e98f";
+}
+.wfr-shield-check:before {
+  content: "\e990";
+}
+.wfr-shield-star:before {
+  content: "\e991";
+}
+.wfr-shopping-cart2:before {
+  content: "\e91b";
+}
+.wfr-signal:before {
+  content: "\e94d";
+}
+.wfr-signs-post:before {
+  content: "\e992";
+}
+.wfr-sk-map:before {
+  content: "\e939";
+}
+.wfr-sk-map-marker:before {
+  content: "\e94e";
+}
+.wfr-sliders:before {
+  content: "\e96c";
+}
+.wfr-speed:before {
+  content: "\e93a";
+}
+.wfr-square-overlay:before {
+  content: "\e96d";
+}
+.wfr-star:before {
+  content: "\e993";
+}
+.wfr-sync:before {
+  content: "\e932";
+}
+.wfr-tags:before {
+  content: "\e94f";
+}
+.wfr-teamviewer:before {
+  content: "\e933";
+}
+.wfr-text-align-center:before {
+  content: "\e93d";
+}
+.wfr-text-align-left:before {
+  content: "\e93e";
+}
+.wfr-text-align-right:before {
+  content: "\e93f";
+}
+.wfr-ticket:before {
+  content: "\e994";
+}
+.wfr-trash-can:before {
+  content: "\e96e";
+}
+.wfr-tree:before {
+  content: "\e995";
+}
+.wfr-triangle-arrows:before {
+  content: "\e96f";
+}
+.wfr-triangle-exclamation:before {
+  content: "\e970";
+}
+.wfr-truck1:before {
+  content: "\e91c";
+}
+.wfr-unlink:before {
+  content: "\e929";
+}
+.wfr-upgrade:before {
+  content: "\e92a";
+}
+.wfr-user-plus:before {
+  content: "\e971";
+}
+.wfr-user-tie:before {
+  content: "\e972";
+}
+.wfr-user-tie-check:before {
+  content: "\e973";
+}
+.wfr-user2:before {
+  content: "\e91d";
+}
+.wfr-videocamera:before {
+  content: "\e996";
+}
+.wfr-virtualne:before {
+  content: "\e91e";
+}
+.wfr-w2:before {
+  content: "\e91f";
+}
