@@ -22,17 +22,17 @@ output:
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_cities_type?id_type=1
 input:
-  "id_type"
+  "id_type" [$_GET]
 output:
   rovnaký výstup ako pri "get_all_cities"
 
 
 3. user_token -> overenie, či používateľ existuje, ak áno, tak vráti jeho ID user, ak nie, tak ho pridá do DB
 url:
-  https://slovensko.virtualne.sk/mob-app-api-v/user_token?id_city=4&uid_user=fiXYkga9QTGRf7fnuNNA_H:APA91bHvKpyCYBMKyn7jnTr1_nh-0UszgZa6lTLXa2F3wZJCWigfitwYvOayUX0E1YnpiN4uvVI9RnOyW7BGmvByJJGDYa2yZARCaXVYMVazyWyXOeonYEe2RVvMB_6NCHTVB_Wri5q_;
+  https://slovensko.virtualne.sk/mob-app-api-v/user_token
 input:
-  "id_city"
-  "uid_user"
+  "id_city" [$_POST] -> 4
+  "uid_user" [$_POST] -> fiXYkga9QTGRf7fnuNNA_H:APA91bHvKpyCYBMKyn7jnTr1_nh-0UszgZa6lTLXa2F3wZJCWigfitwYvOayUX0E1YnpiN4uvVI9RnOyW7BGmvByJJGDYa2yZARCaXVYMVazyWyXOeonYEe2RVvMB_6NCHTVB_Wri5q_
 output:
   "id_user": "65"
 
@@ -41,7 +41,7 @@ output:
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_user?uid_user=fiXYkga9QTGRf7fnuNNA_H:APA91bHvKpyCYBMKyn7jnTr1_nh-0UszgZa6lTLXa2F3wZJCWigfitwYvOayUX0E1YnpiN4uvVI9RnOyW7BGmvByJJGDYa2yZARCaXVYMVazyWyXOeonYEe2RVvMB_6NCHTVB_Wri5q_
 input:
-  "uid_user"
+  "uid_user" [_GET]
 output:
   "id_user": "65" -> id používateľa
   "uid_user": "fiXYkga9QTGRf7fnuNNA_H:APA91bHvKpyCYBMKyn7jnTr1_nh-0UszgZa6lTLXa2F3wZJCWigfitwYvOayUX0E1YnpiN4uvVI9RnOyW7BGmvByJJGDYa2yZARCaXVYMVazyWyXOeonYEe2RVvMB_6NCHTVB_Wri5q_" -> uid zariadenia/telefónu
@@ -56,7 +56,7 @@ output:
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_menu?id_city=1
 input:
-  "id_city"
+  "id_city" [$_GET]
 output:
   "id_category": "1" -> id kategórie
   "id_base_module": "1" -> id základného modulu -> 1 => oznamy, 2 => vývoz odpadu, 3 => kalendár podujatí, 4 => podnet samospráve, 5 => prieskum verejnej mienky, 6 => fotogaléria
@@ -74,7 +74,7 @@ output:
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_tab_menu?id_city=1
 input:
-  "id_city"
+  "id_city" [$_GET]
 output:
   rovnaký výstup ako pri "get_tab_menu"
 
@@ -84,8 +84,8 @@ output:
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_module?id_city=4&id_module=1
 input:
-  "id_city"
-  "id_module"
+  "id_city" [$_GET]
+  "id_module" [$_GET]
 output:
   "id_category": "109"
   "id_module": "40"
@@ -101,8 +101,8 @@ output:
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_module?id_city=4&id_module=2
 input:
-  "id_city"
-  "id_module"
+  "id_city" [$_GET]
+  "id_module" [$_GET]
 output:
   "module_parts": {
       "1": {
@@ -136,8 +136,8 @@ output:
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_module&id_city=4&id_module=3
 input:
-  "id_city"
-  "id_module"
+  "id_city" [$_GET]
+  "id_module" [$_GET]
 output:
   "2024-05-17": {
       "date": "17.5"
@@ -159,8 +159,8 @@ output:
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_module&id_city=4&id_module=4
 input:
-  "id_city"
-  "id_module"
+  "id_city" [$_GET]
+  "id_module" [$_GET]
 output:
   "module_parts": { -> nastavenie modulu
       "1": {
@@ -176,8 +176,8 @@ output:
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_module&id_city=4&id_module=5
 input:
-  "id_city"
-  "id_module"
+  "id_city" [$_GET]
+  "id_module" [$_GET]
 output:
   "id_module_part": "51"
   "id_module": "44"
@@ -189,8 +189,8 @@ output:
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_module&id_city=4&id_module=6
 input:
-  "id_city"
-  "id_module"
+  "id_city" [$_GET]
+  "id_module" [$_GET]
 output:
   "id_category": "111"
   "id_module": "45"
@@ -210,9 +210,9 @@ output:
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_category&id_city=4&id_module=1&id_category=109
 input:
-  "id_city"
-  "id_module"
-  "id_category"
+  "id_city" [$_GET]
+  "id_module" [$_GET]
+  "id_category" [$_GET]
 output:
   "id_ci": "483633",
   "name": "Predám šaty",
@@ -228,9 +228,9 @@ output:
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_item&id_city=4&id_module=1&id_item=483633
 input:
-  "id_city"
-  "id_module" -> 1 => oznamy, 2 => vývoz odpadu, 3 => kalendár podujatí, 4 => podnet samospráve, 5 => prieskum verejnej mienky, 6 => fotogaléria
-  "id_item"
+  "id_city" [$_GET]
+  "id_module" [$_GET] -> 1 => oznamy, 2 => vývoz odpadu, 3 => kalendár podujatí, 4 => podnet samospráve, 5 => prieskum verejnej mienky, 6 => fotogaléria
+  "id_item" [$_GET]
 output:
   "id_ci": "483633",
   "name": "Predám šaty",
@@ -246,8 +246,8 @@ output:
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/set_stat&id_city=4&type=1
 input:
-  "id_city"
-  "type" -> 1 => rezidenčný portál, celkový počet, 2 => rezidenčný portál, počet aktuálne aktívnych, 4 => všetky obrazovky
+  "id_city" [$_GET]
+  "type" [$_GET] -> 1 => rezidenčný portál, celkový počet, 2 => rezidenčný portál, počet aktuálne aktívnych, 4 => všetky obrazovky
 output:
   -
 
@@ -256,9 +256,9 @@ output:
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/set_like_items?type=oznamy&parrent_id=483633&item=1
 input:
-  "type"
-  "parrent_id" -> id položky
-  "item" -> 1 => pridanie, 0 => odobranie
+  "type" [$_GET]
+  "parrent_id" [$_GET] -> id položky
+  "item" [$_GET] -> 1 => pridanie, 0 => odobranie
 output:
    "reuslt":"10" -> celkový počet páči sa mi pre danú položku
 
@@ -267,9 +267,9 @@ output:
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/set_notification?id_city=1&id_user=1&active=1
 input:
-  "uid_user" -> uid zariadenia/telefónu
-  "id_user"
-  "active" -> aktivovanie/deaktivovanie // 0 => deaktivovanie, 1 => aktivovanie
+  "uid_user" [$_GET] -> uid zariadenia/telefónu
+  "id_user" [$_GET]
+  "active" [$_GET] -> aktivovanie/deaktivovanie // 0 => deaktivovanie, 1 => aktivovanie
 output:
   "id_user": "65" -> id používateľa
   "uid_user": "fiXYkga9QTGRf7fnuNNA_H:APA91bHvKpyCYBMKyn7jnTr1_nh-0UszgZa6lTLXa2F3wZJCWigfitwYvOayUX0E1YnpiN4uvVI9RnOyW7BGmvByJJGDYa2yZARCaXVYMVazyWyXOeonYEe2RVvMB_6NCHTVB_Wri5q_" -> uid zariadenia/telefónu
@@ -284,10 +284,10 @@ output:
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/set_concrete_notification?id_user=65&prop=1&id_cat=109&id_city=4;
 input:
-  "id_user"
-  "prop" -> id kategórie notifikácie
-  "id_cat"
-  "id_city"
+  "id_user" [$_GET]
+  "prop" [$_GET] -> id kategórie notifikácie
+  "id_cat" [$_GET]
+  "id_city" [$_GET]
 output:
    -
 
@@ -296,8 +296,8 @@ output:
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_notification?id_user=65&id_cities=1;-;4
 input:
-  "id_user"
-  "id_cities" -> zoznam všetkých ID miest oddelené symbolom ";-;"
+  "id_user" [$_GET]
+  "id_cities" [$_GET] -> zoznam všetkých ID miest oddelené symbolom ";-;"
 output:
   "id_city": "1",
   "notifies": {
@@ -311,20 +311,20 @@ output:
 
 16. verification_user -> odoslanie kódu na overenie tel. čísla
 url:
-  https://slovensko.virtualne.sk/mob-app-api-v/verification_user?id_user=65&phone_number=0910222333;
+  https://slovensko.virtualne.sk/mob-app-api-v/verification_user;
 input:
-  "id_user"
-  "phone_number"
+  "id_user" [$_POST] -> 65
+  "phone_number" [$_POST] -> 0910222333
 output:
   -
 
 
 17. check_verification_user -> overenie tel. čísla pre zapájanie sa používateľa do prieskumov
 url:
-  https://slovensko.virtualne.sk/mob-app-api-v/check_verification_user?id_user=65&verification_code=1234;
+  https://slovensko.virtualne.sk/mob-app-api-v/check_verification_user;
 input:
-  "id_user"
-  "verification_code" -> kód na overenie tel. čísla
+  "id_user" [$_POST] -> 65
+  "verification_code" [$_POST] -> kód na overenie tel. čísla -> 1234
 output:
   "result": "1" -> 0 => "nezhoduje sa, neoverené tel. číslo", 1 => "zhoduje sa, úspešne overené tel. číslo"
 
@@ -332,42 +332,42 @@ output:
 
 18. add_poll_answer -> odošle odpoveď k prieskumu verejnej mienky
 url:
-  https://slovensko.virtualne.sk/mob-app-api-v/user_token?id_user=65&id_question=10&id_answer=50;
+  https://slovensko.virtualne.sk/mob-app-api-v/add_poll_answer;
 input:
-  "id_user"
-  "id_question"
-  "id_answer"
+  "id_user" [$_POST] -> 65
+  "id_question" [$_POST] -> 10
+  "id_answer" [$_POST] -> 50
 output:
   -
 
 
 19. add_suggestion -> pridanie komplexnejšieho podnetu
 url:
-  https://slovensko.virtualne.sk/mob-app-api-v/add_suggestion?id_user=65&id_category=10&title=title&location=location&description=description&name=name&phone_number=0910402059&email=email&admin_email=admin_email&id_city=4;
+  https://slovensko.virtualne.sk/mob-app-api-v/add_suggestion;
 input:
-  "id_category"
-  "title"
-  "location"
-  "description"
-  "name"
-  "phone_number"
-  "email"
-  "admin_email"
-  "id_city"
+  "id_category" [$_POST]
+  "title" [$_POST]
+  "location" [$_POST]
+  "description" [$_POST]
+  "name" [$_POST]
+  "phone_number" [$_POST]
+  "email" [$_POST]
+  "admin_email" [$_POST]
+  "id_city" [$_POST]
 output:
   "result": "10" -> id pridaného podnetu
 
 
 20. add_suggestion_images -> pridanie obrázkov pre komplexnejší podnet
 url:
-  https://slovensko.virtualne.sk/mob-app-api-v/add_suggestion_images?id_suggestion=10&image=image&name=name&size=size&data=data&type=type&id_city=4;
+  https://slovensko.virtualne.sk/mob-app-api-v/add_suggestion_images;
 input:
-  "id_suggestion"
-  "image"
-  "name"
-  "size"
-  "type"
-  "id_city"
+  "id_suggestion" [$_POST]
+  "image" [$_POST]
+  "name" [$_POST]
+  "size" [$_POST]
+  "type" [$_POST]
+  "id_city" [$_POST]
 output:
   -
 
@@ -375,7 +375,7 @@ output:
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_news?&id_city=4
 input:
-  "id_city"
+  "id_city" [$_GET]
 output:
   "id_new": 51018
   "type": "5" -> 1 => oznamy, 2 => vývoz odpadu, 3 => kalendár podujatí, 4 => podnet samospráve, 5 => prieskum verejnej mienky, 6 => fotogaléria
@@ -389,10 +389,10 @@ output:
 
 22. get_my_items -> zoznam mojich položiek
 url:
-  https://slovensko.virtualne.sk/mob-app-api-v/get_my_items?&id_city=4&items=[{"value":535624,"sep":"oznamy"}]
+  https://slovensko.virtualne.sk/mob-app-api-v/get_my_items?&id_city=4&items=[{"type":1,"id_item":"535624"}]
 input:
-  "id_city"
-  "items" -> sep => typ, value => id polozky
+  "id_city" [$_GET]
+  "items" [$_POST] -> type => 1 -> oznamy, 3 -> akcie, id_item => id polozky
 output:
   "id_ci": "483633"
   "name": "Predám šaty"
@@ -408,9 +408,9 @@ output:
 url:
   https://slovensko.virtualne.sk/mob-data/vidanto-get-data.php?id_city=1&id=1&item=535624&mode=0
 input:
-  "id_city"
-  "id" => separátor // 1 => oznamy, 2 => akcie
-  "item" -> id položky
-  "mode" -> 0 => svetlý režim, 1 => tmavý režim
+  "id_city" [$_GET]
+  "id" [$_GET] => separátor // 1 => oznamy, 2 => akcie
+  "item" [$_GET] -> id položky
+  "mode" [$_GET] -> 0 => svetlý režim, 1 => tmavý režim
 output:
   - html page
