@@ -389,10 +389,9 @@ output:
 
 22. get_my_items -> zoznam mojich položiek
 url:
-  https://slovensko.virtualne.sk/mob-app-api-v/get_my_items?&id_city=4
+  https://slovensko.virtualne.sk/mob-app-api-v/get_my_items
 input:
-  "id_city" [$_GET]
-  "items" [$_POST] -> type => 1 -> oznamy, 3 -> akcie, id_item => id polozky example: items=[{"id_city":1,"type":1,"id_item":"535624"}]
+  "items" [$_POST] -> type => 1 -> oznamy, 3 -> akcie, id_item => id polozky example: items=[{"id_city":1,"type":1,"id_item":"535624"},{"id_city":4,"type":3,"id_item":"526555"}]
 output:
   "id_ci": "483633"
   "name": "Predám šaty"
