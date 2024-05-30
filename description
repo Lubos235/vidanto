@@ -87,7 +87,7 @@ input:
   "id_city" [$_GET]
   "id_module" [$_GET]
   "from" [$_GET] -> ak nie je zadané, tak je default 0
-  "to" [$_GET] -> ak nie je zadané, tak je default 10
+  "step" [$_GET] -> ak nie je zadané, tak je default 10
 output:
   "id_category": "109"
   "id_module": "40"
@@ -143,7 +143,7 @@ input:
   "id_city" [$_GET]
   "id_module" [$_GET] 
   "from" [$_GET] -> ak nie je zadané, tak je default 0
-  "to" [$_GET] -> ak nie je zadané, tak je default 10
+  "step" [$_GET] -> ak nie je zadané, tak je default 10
 output:
   "2024-05-17": {
       "date": "17.5"
@@ -168,7 +168,7 @@ input:
   "id_city" [$_GET]
   "id_module" [$_GET]
   "from" [$_GET] -> ak nie je zadané, tak je default 0
-  "to" [$_GET] -> ak nie je zadané, tak je default 10
+  "step" [$_GET] -> ak nie je zadané, tak je default 10
 output:
   "module_parts": { -> nastavenie modulu
       "1": {
@@ -187,7 +187,7 @@ input:
   "id_city" [$_GET]
   "id_module" [$_GET]
   "from" [$_GET] -> ak nie je zadané, tak je default 0
-  "to" [$_GET] -> ak nie je zadané, tak je default 10
+  "step" [$_GET] -> ak nie je zadané, tak je default 10
 output:
   "id_module_part": "51"
   "id_module": "44"
@@ -202,7 +202,7 @@ input:
   "id_city" [$_GET]
   "id_module" [$_GET]
   "from" [$_GET] -> ak nie je zadané, tak je default 0
-  "to" [$_GET] -> ak nie je zadané, tak je default 10
+  "step" [$_GET] -> ak nie je zadané, tak je default 10
 output:
   "id_category": "111"
   "id_module": "45"
@@ -226,7 +226,7 @@ input:
   "id_module" [$_GET]
   "id_category" [$_GET]
   "from" [$_GET] -> ak nie je zadané, tak je default 0
-  "to" [$_GET] -> ak nie je zadané, tak je default 10
+  "step" [$_GET] -> ak nie je zadané, tak je default 10
 output:
   "id_ci": "483633",
   "name": "Predám šaty",
