@@ -390,6 +390,8 @@ url:
   https://slovensko.virtualne.sk/mob-app-api-v/get_news?&id_city=4
 input:
   "id_city" [$_GET]
+  "from" [$_GET] -> ak nie je zadané, tak je default 0
+  "step" [$_GET] -> ak nie je zadané, tak je default 10
 output:
   "id_new": 51018
   "type": "5" -> 1 => oznamy, 2 => vývoz odpadu, 3 => kalendár podujatí, 4 => podnet samospráve, 5 => prieskum verejnej mienky, 6 => fotogaléria
