@@ -268,7 +268,7 @@ output:
 
 12. set_like_items -> uloží páči sa mi pre konkrétnu položku
 url:
-  https://slovensko.virtualne.sk/mob-app-api-v/set_like_items?type=oznamy&parrent_id=483633&item=1
+  https://slovensko.virtualne.sk/mob-app-api-v/set_like_items?type=1&parrent_id=483633&item=1
 input:
   "type" [$_GET]
   "parrent_id" [$_GET] -> id položky
