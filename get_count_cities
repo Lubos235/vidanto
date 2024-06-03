@@ -1,0 +1,12 @@
+
+--- počet všetkých portálov, ktoré majú vygenerovaný admin pre mobilnú aplikáciu Vidanto ---
+https://slovensko.virtualne.sk/mob-app-api-v/get_count_cities
+
+{
+  "error_code": "",
+  "data": {
+    "1":5,
+    "2":4,
+    "3":0
+  }
+}
