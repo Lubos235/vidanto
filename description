@@ -281,17 +281,10 @@ output:
 url:
   https://slovensko.virtualne.sk/mob-app-api-v/set_notification?id_city=1&id_user=1&active=1
 input:
-  "uid_user" [$_GET] -> uid zariadenia/telefónu
+  "id_city" [$_GET]
   "id_user" [$_GET]
   "active" [$_GET] -> aktivovanie/deaktivovanie // 0 => deaktivovanie, 1 => aktivovanie
 output:
-  "id_user": "65" -> id používateľa
-  "uid_user": "fiXYkga9QTGRf7fnuNNA_H:APA91bHvKpyCYBMKyn7jnTr1_nh-0UszgZa6lTLXa2F3wZJCWigfitwYvOayUX0E1YnpiN4uvVI9RnOyW7BGmvByJJGDYa2yZARCaXVYMVazyWyXOeonYEe2RVvMB_6NCHTVB_Wri5q_" -> uid zariadenia/telefónu
-  "verification_number": "1" -> overené tel. číslo SMS-kou, 
-  "id_city": "4"
-  "phone_number": "+421907822893" -> tel. číslo používateľa
-  "address": "" -> adresa používateľa, ktorú si môže vyplniť v profile v aplikácii
-  "email": "" -> email používateľa, ktorý si môže vyplniť v profile v aplikácii
 
 
 14. set_concrete_notification -> aktivovanie/deaktivovanie notifikovania položky, ak existuje v db záznam, tak ho vymaže a deaktivuje notifikáciu, ak záznam neexistuje, tak ho pridá a aktivuje notifikáciu
