@@ -285,14 +285,14 @@ input:
   "id_user" [$_GET]
   "active" [$_GET] -> aktivovanie/deaktivovanie // 0 => deaktivovanie, 1 => aktivovanie
 output:
-
+  -
 
 14. set_concrete_notification -> aktivovanie/deaktivovanie notifikovania položky, ak existuje v db záznam, tak ho vymaže a deaktivuje notifikáciu, ak záznam neexistuje, tak ho pridá a aktivuje notifikáciu
 url:
-  https://slovensko.virtualne.sk/mob-app-api-v/set_concrete_notification?id_user=65&prop=1&id_cat=109&id_city=4;
+  https://slovensko.virtualne.sk/mob-app-api-v/set_concrete_notification?id_user=65&prop=1&id_cat=109&id_city=4
 input:
   "id_user" [$_GET]
-  "prop" [$_GET] -> id kategórie notifikácie
+  "type" [$_GET] -> id kategórie notifikácie
   "id_cat" [$_GET]
   "id_city" [$_GET]
 output:
