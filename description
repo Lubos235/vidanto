@@ -316,7 +316,7 @@ output:
   "id_city": "1",
   "notifies": {
     "1": {
-      "prop": 1 -> id kategórie notifikácie
+      "type": 1 -> kategórie oznamov, 2 -> vývoz odpadu, 3 -> akcie, 5 -> prieskum
       "name": "Oznamy" -> názov
       "id_cat": "1" -> id kategórie
       "active": "590" -> id konkrétneho záznamu z db //  "0" => notifikácia je deaktivovaná, "xyz" => ak je to iné číslo ako nula, tak je aktívna
