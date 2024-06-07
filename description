@@ -343,7 +343,7 @@ url:
 input:
   "id_user" [$_POST] -> 65
   "id_question" [$_POST] -> 10
-  "id_answer" [$_POST] -> 50
+  "answer" [$_POST] -> odpoveď
 output:
   -
 
