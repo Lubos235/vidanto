@@ -3,130 +3,112 @@ https://slovensko.virtualne.sk/mob-app-api-v/get_notification?id_user=65&id_citi
 
 {
   "error_code": "",
-  "data": {
-    "1": {
+  "data": [
+    {
       "id_city": "1",
-      "notifies": {
-        "1": {
-          "prop": 1,
-          "name": "Oznamy",
-          "id_cat": "1",
-          "active": "590"
-        },
-        "2": {
-          "prop": 2,
-          "name": "Vývoz odpadu",
-          "id_cat": "2",
-          "active": "591"
-        },
-        "3": {
-          "prop": 3,
-          "name": "Akcie",
-          "id_cat": "6",
-          "active": "592"
-        },
-        "4": {
-          "prop": 4,
-          "name": "Podnet samospráve",
-          "id_cat": "3",
-          "active": "593"
-        },
-        "5": {
-          "prop": 5,
-          "name": "Prieskum verejnej mienky",
-          "id_cat": "4",
-          "active": "594"
-        },
-        "6": {
-          "prop": 7,
+      "notifies": [
+        {
+          "type": 1,
           "name": "Verejne obstarávanie",
           "id_cat": "12",
-          "active": "595"
+          "active": 0
         },
-        "7": {
-          "prop": 7,
+        {
+          "type": 1,
           "name": "Aktuality",
           "id_cat": "9",
-          "active": "596"
-        }
-      }
-    },
-    "2": {
-      "id_city": "4",
-      "notifies": {
-        "1": {
-          "prop": 1,
-          "name": "Oznamy",
-          "id_cat": "40",
-          "active": "570"
+          "active": 0
         },
-        "2": {
-          "prop": 2,
+        {
+          "type": 2,
+          "name": "Vývoz odpadu",
+          "id_cat": "2",
+          "active": 0
+        },
+        {
+          "type": 3,
+          "name": "Akcie",
+          "id_cat": "6",
+          "active": 0
+        },
+        {
+          "type": 5,
+          "name": "Prieskum verejnej mienky",
+          "id_cat": "4",
+          "active": 0
+        }
+      ]
+    },
+    {
+      "id_city": "4",
+      "notifies": [
+        {
+          "type": 1,
+          "name": "Výberové konania",
+          "id_cat": "113",
+          "active": "795"
+        },
+        {
+          "type": 1,
+          "name": "Susedská burza",
+          "id_cat": "109",
+          "active": "796"
+        },
+        {
+          "type": 1,
+          "name": "Farské oznamy",
+          "id_cat": "108",
+          "active": "797"
+        },
+        {
+          "type": 1,
+          "name": "Smútočné oznámenia",
+          "id_cat": "107",
+          "active": "798"
+        },
+        {
+          "type": 1,
+          "name": "Aktuality",
+          "id_cat": "21",
+          "active": "799"
+        },
+        {
+          "type": 1,
+          "name": "Elektronická úradná tabuľa",
+          "id_cat": "110",
+          "active": "800"
+        },
+        {
+          "type": 1,
+          "name": "Výberové konania",
+          "id_cat": "23",
+          "active": "801"
+        },
+        {
+          "type": 1,
+          "name": "Čo je nové v zákone",
+          "id_cat": "22",
+          "active": "802"
+        },
+        {
+          "type": 2,
           "name": "Vývoz odpadu",
           "id_cat": "41",
           "active": "571"
         },
-        "3": {
-          "prop": 3,
+        {
+          "type": 3,
           "name": "Akcie",
           "id_cat": "45",
           "active": "572"
         },
-        "4": {
-          "prop": 4,
-          "name": "Podnet samospráve",
-          "id_cat": "42",
-          "active": "573"
-        },
-        "5": {
-          "prop": 5,
+        {
+          "type": 5,
           "name": "Prieskum verejnej mienky",
           "id_cat": "43",
           "active": "574"
-        },
-        "6": {
-          "prop": 7,
-          "name": "Susedská burza",
-          "id_cat": "109",
-          "active": "575"
-        },
-        "7": {
-          "prop": 7,
-          "name": "Farské oznamy",
-          "id_cat": "108",
-          "active": "576"
-        },
-        "8": {
-          "prop": 7,
-          "name": "Smútočné oznámenia",
-          "id_cat": "107",
-          "active": "577"
-        },
-        "9": {
-          "prop": 7,
-          "name": "Aktuality",
-          "id_cat": "21",
-          "active": "578"
-        },
-        "10": {
-          "prop": 7,
-          "name": "Elektronická úradná tabuľa",
-          "id_cat": "110",
-          "active": 0
-        },
-        "11": {
-          "prop": 7,
-          "name": "Výberové konania",
-          "id_cat": "23",
-          "active": "579"
-        },
-        "12": {
-          "prop": 7,
-          "name": "Čo je nové v zákone",
-          "id_cat": "22",
-          "active": "580"
         }
-      }
+      ]
     }
-  }
+  ]
 }
