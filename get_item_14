@@ -1,0 +1,13 @@
+--- info o detaile polozky obecny rozhlas ---
+https://slovensko.virtualne.sk/mob-app-api-v/get_item&id_city=4&id_module=14&id_item=2432
+
+{
+  "error_code": "",
+  "data": {
+    "id_item": "2432",
+    "name": "FK Fatran Varín - 29.6.24",
+    "text": "",
+    "date_public": "28.6.2024",
+    "url": "https://janmynarik-florian.s3-eu-west-1.amazonaws.com/28173502265360384.m4a"
+  }
+}
