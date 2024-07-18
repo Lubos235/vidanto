@@ -1,0 +1,78 @@
+--- obecny rozhlas ---
+https://slovensko.virtualne.sk/mob-app-api-v/get_module&id_city=4&id_module=14
+
+{
+  "error_code": "",
+  "data": [
+    {
+      "id_item": 2432,
+      "id_module": "145",
+      "id_base_module": "14",
+      "name": "FK Fatran Varín - 29.6.24",
+      "date_public": "28.6.2024"
+    },
+    {
+      "id_item": 2430,
+      "id_module": "145",
+      "id_base_module": "14",
+      "name": "stratené kľôče",
+      "date_public": "28.6.2024"
+    },
+    {
+      "id_item": 2428,
+      "id_module": "145",
+      "id_base_module": "14",
+      "name": "Predaj kotlíkov",
+      "date_public": "28.6.2024"
+    },
+    {
+      "id_item": 2426,
+      "id_module": "145",
+      "id_base_module": "14",
+      "name": "Predaj ovocia a zeleniny  28.06.24",
+      "date_public": "28.6.2024"
+    },
+    {
+      "id_item": 2424,
+      "id_module": "145",
+      "id_base_module": "14",
+      "name": "Rozhodnutia - daň z nehnuteľnosti, daň za psa a poplatok za KO a SO",
+      "date_public": "27.6.2024"
+    },
+    {
+      "id_item": 2422,
+      "id_module": "145",
+      "id_base_module": "14",
+      "name": "Predaj zeleniny a ovocia 27.06.24",
+      "date_public": "27.6.2024"
+    },
+    {
+      "id_item": 2410,
+      "id_module": "145",
+      "id_base_module": "14",
+      "name": "27.6. súkr.podnikateľ",
+      "date_public": "26.6.2024"
+    },
+    {
+      "id_item": 2411,
+      "id_module": "145",
+      "id_base_module": "14",
+      "name": "26.6. foto- dhzo",
+      "date_public": "26.6.2024"
+    },
+    {
+      "id_item": 2409,
+      "id_module": "145",
+      "id_base_module": "14",
+      "name": "26.6. top farm",
+      "date_public": "26.6.2024"
+    },
+    {
+      "id_item": 2408,
+      "id_module": "145",
+      "id_base_module": "14",
+      "name": "27.6. mäso červeník",
+      "date_public": "26.6.2024"
+    }
+  ]
+}
