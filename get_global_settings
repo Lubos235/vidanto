@@ -1,0 +1,10 @@
+--- globalne nastavenia pre aplikáciu ---
+https://slovensko.virtualne.sk/mob-app-api-v/get_global_settings
+
+{
+  "error_code": "",
+  "data": {
+    "hint": "https://www.virtualne.sk", -> link na nápovedu
+    "rating": "1" -> zapnutie/vypnutie hodnotenia aplikácie, 1 -> zapnuté, 0 -> vypnuté
+  }
+}
