@@ -22,7 +22,76 @@ https://slovensko.virtualne.sk/mob-app-api-v/get_module&id_city=4&id_module=3
   }
 }
 
---- zoznam podujatí podľa kategórie ---
+--- zoznam podujatí  ---
+{
+  "error_code": "",
+  "data": [
+    {
+      "id_action": 150614,
+      "id_cat": "768",
+      "name": "asdasdasd",
+      "date_from": "8.8",
+      "date_to": "",
+      "date_text": "Št",
+      "place": "miesto akcia",
+      "obr_alt": "",
+      "obr": "",
+      "count": 0
+    },
+    {
+      "id_action": 150617,
+      "id_cat": "768",
+      "name": "nazov www",
+      "date_from": "8.8",
+      "date_to": "9.8",
+      "date_text": "",
+      "place": "miesto",
+      "obr_alt": "",
+      "obr": "",
+      "count": 0
+    },
+    {
+      "id_action": 150615,
+      "id_cat": "5244",
+      "name": "test akcia 11.10.",
+      "date_from": "16.8",
+      "date_to": "24.8",
+      "date_text": "",
+      "place": "miesto akcia",
+      "obr_alt": "",
+      "obr": "",
+      "count": 0
+    },
+    {
+      "id_action": 150616,
+      "id_cat": "2291",
+      "name": "nazvo dalsi",
+      "date_from": "28.8",
+      "date_to": "",
+      "date_text": "St",
+      "place": "miesto akcia",
+      "obr_alt": "",
+      "obr": "",
+      "count": 0
+    },
+    {
+      "id_action": 148808,
+      "id_cat": "768",
+      "name": "Výstava fotografií prírody - kópia",
+      "date_from": "14.9",
+      "date_to": "",
+      "date_text": "So",
+      "place": "Kultúrny dom",
+      "obr_alt": "",
+      "obr": "https://klasikaobec.webyportal.sk/portals_pictures/i_007548/i_7548842.jpg",
+      "count": 0
+    }
+  ]
+}
+
+
+
+--- kalendár podujatí podľa kategórie ---
 https://slovensko.virtualne.sk/mob-app-api-v/get_module&id_city=4&id_module=3&id_kat=0
 {
   "error_code": "",
