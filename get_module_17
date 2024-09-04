@@ -1,0 +1,54 @@
+{
+  "error_code": "",
+  "data": {
+    "module_parts": [
+      {
+        "id_module_part": "461",
+        "id_module": "362",
+        "id_base_module": "17",
+        "sep": "skratka_mesta",
+        "data": "ZV"
+      },
+      {
+        "id_module_part": "462",
+        "id_module": "362",
+        "id_base_module": "17",
+        "sep": "cena_hodina",
+        "data": "1.5"
+      },
+      {
+        "id_module_part": "463",
+        "id_module": "362",
+        "id_base_module": "17",
+        "sep": "popis",
+        "data": "Za parkovanie platíte len v pracovné dni od 8:00 - 16:00. Cena parkovania je jednotná - 1.5e/h."
+      }
+    ],
+    "zones": [
+      {
+        "id_item": "1232",
+        "id_module": "362",
+        "id_base_module": "17",
+        "name": "Hlavné námestie"
+      },
+      {
+        "id_item": "1234",
+        "id_module": "362",
+        "id_base_module": "17",
+        "name": "Zóna I"
+      },
+      {
+        "id_item": "1235",
+        "id_module": "362",
+        "id_base_module": "17",
+        "name": "Zóna II"
+      },
+      {
+        "id_item": "1236",
+        "id_module": "362",
+        "id_base_module": "17",
+        "name": "Zóna III"
+      }
+    ]
+  }
+}
