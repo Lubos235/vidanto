@@ -1,0 +1,111 @@
+{
+  "error_code": "",
+  "data": {
+    "module_parts": [
+      {
+        "id_module_part": "530",
+        "id_module": "378",
+        "id_base_module": "17",
+        "sep": "skratka_mesta",
+        "data": "KO"
+      },
+      {
+        "id_module_part": "531",
+        "id_module": "378",
+        "id_base_module": "17",
+        "sep": "prevadzkova_doba",
+        "data": [ -> prevadzkova doba v poradí Pondelok - Nedeľa
+          {
+            "from": "07:00",
+            "to": "18:00"
+          },
+          {
+            "from": "07:00",
+            "to": "18:00"
+          },
+          {
+            "from": "07:00",
+            "to": "18:00"
+          },
+          {
+            "from": "07:00",
+            "to": "18:00"
+          },
+          {
+            "from": "07:00",
+            "to": "18:00"
+          },
+          {
+            "from": "07:00",
+            "to": "12:00"
+          },
+          {
+            "from": "",
+            "to": ""
+          }
+        ]
+      },
+      {
+        "id_module_part": "532",
+        "id_module": "378",
+        "id_base_module": "17",
+        "sep": "popis",
+        "data": "Parkovanie platené pracovné dni 7:00 - 15:00, sobota 7:00 - 12:00, nedeľa a sviatky bezplatne."
+      },
+      {
+        "id_module_part": "2678",
+        "id_module": "378",
+        "id_base_module": "17",
+        "sep": "zony",
+        "data": "0" -> 0 - parkovanie bez zon, 1 - parkovanie so zonami
+      },
+      {
+        "id_module_part": "2679",
+        "id_module": "378",
+        "id_base_module": "17",
+        "sep": "typ_listok",
+        "data": "0" -> 0 - rovnaká cena za každú hodinu, napr. 1e/1h, 2e/2h, 3e/3h (sep - cena_listok), 1 - rozne ceny listkov, napr. 2e/prvá hodina, každá ďalšia hodina 1e (setp - cena_listok_rozne)
+      },
+
+      // toto je vypis pre typ listka = 0
+      {
+        "id_module_part": "2680",
+        "id_module": "378",
+        "id_base_module": "17",
+        "sep": "cena_listok",
+        "data": [
+          {
+            "price": "2", -> cena v eurách
+            "price_time": "1", -> počet jednotiek hodín/minút
+            "price_time_sep": "0", -> 0 - hodiny, 1 - minúty
+            "price_short": "1" -> skratka na konci SMS
+          }
+        ]
+      }
+
+      // toto je vypis pre typ listka = 1
+      {
+        "id_module_part": "2681",
+        "id_module": "378",
+        "id_base_module": "17",
+        "sep": "cena_listok_rozne",
+        "data": [
+          {
+            "price_name": "Prvá hodina", -> názov, ktorý sa bude zobrazovať v dropdowne
+            "price": "1", -> cena v eurách
+            "price_time": "1", -> počet jednotiek hodín/minút
+            "price_time_sep": "0", 0 - hodiny, 1 - minúty
+            "price_short": "1" -> skratka na konci SMS
+          },
+          {
+            "price_name": "dr",
+            "price": "2",
+            "price_time": "2",
+            "price_time_sep": "0",
+            "price_short": "2"
+          }
+        ]
+      }    
+    ]
+  }
+}
