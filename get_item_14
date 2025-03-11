@@ -4,10 +4,25 @@ https://slovensko.virtualne.sk/mob-app-api-v/get_item&id_city=4&id_module=14&id_
 {
   "error_code": "",
   "data": {
-    "id_item": "2432",
-    "name": "FK Fatran Varín - 29.6.24",
-    "text": "",
-    "date_public": "28.6.2024",
-    "url": "https://janmynarik-florian.s3-eu-west-1.amazonaws.com/28173502265360384.m4a"
+    "id_item": "43",
+    "type": 1, -> 0 - Florian, 1 - Rozana
+    "name": "Pozvanka na MsZ 28112024",
+    "text": "Propagácia Rozana",
+    "date_public": "27.11.2024",
+    "url": "https://rozana.sk/data/hlasenie_prilohy/nq3DRplzQRZP.mp3", -> url hlasenia
+    "urls": [
+      {
+        "name": "NULL",
+        "url": "https://rozana.sk/data/hlasenie_prilohy/nq3DRplzQRZP.mp3" -> konkretne hlasenie
+      },
+      {
+        "name": "NULL",
+        "url": "https://rozana.sk/data/hlasenie_prilohy/mTpsLVbz5upp.mp3"
+      },
+      {
+        "name": "NULL",
+        "url": "https://rozana.sk/data/hlasenie_prilohy/iKktoE_k0KNd.mp3"
+      }
+    ]
   }
 }
