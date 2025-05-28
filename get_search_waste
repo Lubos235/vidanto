@@ -1,0 +1,23 @@
+--- zoznam všetkých vývoz pre konkrétny transpondér ---
+https://slovensko.virtualne.sk/mob-app-api/get_search_waste?id_city=4&date_from=2025-01-01&date_to=2025-05-28&code=4000003384CD0B
+
+{
+  "error_code": "",
+  "data": [
+    {
+      "code": "4000003384CD0B",
+      "name": "Dzivý Miroslav",
+      "street": "Haniska PO, Haniska 204",
+      "collections": [
+        {
+          "date": "2025-02-12 08:08:00",
+          "weight": "12"
+        },
+        {
+          "date": "2025-02-12 08:08:00",
+          "weight": "12"
+        }
+      ]
+    }
+  ]
+}
