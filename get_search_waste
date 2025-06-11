@@ -5,6 +5,8 @@ https://slovensko.virtualne.sk/mob-app-api/get_search_waste?id_city=4&date_from=
   "error_code": "",
   "data": [
     {
+      "url": "https://www.nieco.sk",
+      "text": "Text, ktorý sa zobrazuje nad výsledkami výhľadávnaia",
       "code": "4000003384CD0B",
       "name": "Dzivý Miroslav",
       "street": "Haniska PO, Haniska 204",
@@ -16,7 +18,12 @@ https://slovensko.virtualne.sk/mob-app-api/get_search_waste?id_city=4&date_from=
         {
           "date": "2025-02-12 08:08:00",
           "weight": "12"
-        }
+        },
+        "collections_summary": [
+        {
+          "weight": "24",
+          "price": "2.75"
+        },
       ]
     }
   ]
