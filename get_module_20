@@ -1,0 +1,83 @@
+/*
+https://slovensko.virtualne.sk/mob-app-api/get_module&id_module=20&id_city=88&year=2026
+
+- years
+  -> tieto dáta sa zobrazujú do selectu - Vyberte rok
+  -> defaultne je zobrazený najnovší rok, prí výbere je treba zavolať url s parametrom "year" a zobrazia sa dáta pre aktuálny výber roku
+- items -> jednotlivé zobrazenia pre daný rok
+*/
+
+{
+  "error_code": "",
+  "header": {
+    "icon": "wfr-user-tie",
+    "name": "Zasadnutia"
+  },
+  "data": {
+    "years": [
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022",
+      "2021",
+      "2020",
+      "2019",
+      "2018",
+      "2017",
+      "2016",
+      "2015",
+      "2014",
+      "2013",
+      "2012",
+      "2011",
+      "2010",
+      "2009",
+      "2008",
+      "2007",
+      "2006",
+      "2005",
+      "2004",
+      "2003",
+      "2001"
+    ],
+    "items": [
+      {
+        "id": 62199,
+        "name": "Zasadnutie zo dňa",
+        "date": "2025-12-18",
+        "number": "24"
+      },
+      {
+        "id": 60949,
+        "name": "Zasadnutie zo dňa",
+        "date": "2025-10-27",
+        "number": "23"
+      },
+      {
+        "id": 60620,
+        "name": "Zasadnutie zo dňa",
+        "date": "2025-09-25",
+        "number": "22"
+      },
+      {
+        "id": 59783,
+        "name": "Zasadnutie zo dňa",
+        "date": "2025-06-25",
+        "number": "21"
+      },
+      {
+        "id": 58967,
+        "name": "Zasadnutie zo dňa",
+        "date": "2025-04-22",
+        "number": "20"
+      },
+      {
+        "id": 58651,
+        "name": "Zasadnutie zo dňa",
+        "date": "2025-03-25",
+        "number": "19"
+      }
+    ]
+  }
+}
