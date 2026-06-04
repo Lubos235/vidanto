@@ -1,0 +1,81 @@
+--- detail zasadnutia ---
+https://slovensko.virtualne.sk/mob-app-api-v/get_item&id_module=20&id_city=88&id_item=58967
+
+- parameter "id_item" je "id" zoznamu zasadnuti
+
+- items
+  -> jednotlivé časti zasadnutia
+  -> každá časť obsahuje názov, dátum publikovania a súbory - názov a url na stiahnutie
+---------------------------------------------
+
+{
+  "error_code": "",
+  "data": {
+    "title": "Zasadnutie zo dňa 22.4.2025",
+    "date_published": "22.4.2025",
+    "items": [
+      {
+        "title": "Pozvánka na 20. MsZ 22. 4. 2025",
+        "date_published": "16.4.2025",
+        "files": [
+          {
+            "file_title": "Pozvanka_20_msz_22_4_2025.pdf",
+            "file_url": "https://www.detva.sk/download_file_f.php?id=2221666"
+          }
+        ]
+      },
+      {
+        "title": "Materiály pre 20. MsZ 22. 4. 2025",
+        "date_published": "16.4.2025",
+        "files": [
+          {
+            "file_title": "3-Navrh-druhej-aktualizacie-rozpoctu-mesta-Detva-na-rok-2025.pdf",
+            "file_url": "https://www.detva.sk/download_file_f.php?id=2221855"
+          },
+          {
+            "file_title": "4-EO-Navrh-na-schvalenie-dotacie-na-cinnost-na-rok-2025-v-cielovej-oblasti-sport.pdf",
+            "file_url": "https://www.detva.sk/download_file_f.php?id=2221854"
+          },
+          {
+            "file_title": "5-Navrh-o-rozsirenie-terminu-na-jednorazovy-projekt-pre-DTF-TEAM-DETVA.pdf",
+            "file_url": "https://www.detva.sk/download_file_f.php?id=2221853"
+          }
+        ]
+      },
+      {
+        "title": "Zvukový záznam z 20. MsZ 22. 4. 2025",
+        "date_published": "23.4.2025",
+        "files": [
+          {
+            "file_title": "Zasadnutie.zip",
+            "file_url": "https://www.detva.sk/download_file_f.php?id=2223446"
+          },
+          {
+            "file_title": "Hlasovanie.zip",
+            "file_url": "https://www.detva.sk/download_file_f.php?id=2223445"
+          }
+        ]
+      },
+      {
+        "title": "Výpis uznesení z 20. MsZ 22. 4. 2025",
+        "date_published": "6.5.2025",
+        "files": [
+          {
+            "file_title": "Vypis_uzneseni_20_msz.pdf",
+            "file_url": "https://www.detva.sk/download_file_f.php?id=2230518"
+          }
+        ]
+      },
+      {
+        "title": "Zápisnica z 20. MsZ 22. 4. 2025",
+        "date_published": "7.5.2025",
+        "files": [
+          {
+            "file_title": "Zapisnica_20_msz.pdf",
+            "file_url": "https://www.detva.sk/download_file_f.php?id=2231043"
+          }
+        ]
+      }
+    ]
+  }
+}
