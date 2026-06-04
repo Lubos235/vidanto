@@ -1,12 +1,11 @@
-/*
+--- zasadnutia ---
 https://slovensko.virtualne.sk/mob-app-api/get_module&id_module=20&id_city=88&year=2026
 
 - years
   -> tieto dáta sa zobrazujú do selectu - Vyberte rok
   -> defaultne je zobrazený najnovší rok, prí výbere je treba zavolať url s parametrom "year" a zobrazia sa dáta pre aktuálny výber roku
 - items -> jednotlivé zobrazenia pre daný rok
-*/
-
+---------------------------------------------
 {
   "error_code": "",
   "header": {
