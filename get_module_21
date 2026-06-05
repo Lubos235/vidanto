@@ -1,0 +1,88 @@
+--- zasadnutia ---
+https://slovensko.virtualne.sk/mob-app-api/get_module&id_module=21&id_city=88
+
+- parameter "type":
+  -> bez parametra alebo hodnota 0 - všetky vzn
+  -> hodnota 1 -> iba návrhy vzn
+  -> hodnota 2 -> iba platné vzn
+---------------------------------------------
+
+{
+  "error_code": "",
+  "header": {
+    "icon": "wfr-pacifier",
+    "name": "VZN"
+  },
+  "data": {
+    "items": [
+      {
+        "title": "VZN 7/2025 o názve ulíc a iných verejných priestranstiev",
+        "note": "7/2025",
+        "type": "zrušené",
+        "color": "#BFFFBF",
+        "dates": [
+          {
+            "title": "Návrh",
+            "date": "2.4.2026"
+          },
+          {
+            "title": "Účinné",
+            "date": "4.4.2026"
+          },
+          {
+            "title": "Vyhlásené",
+            "date": "3.4.2026"
+          },
+          {
+            "title": "Pridané",
+            "date": "2.12.2025"
+          }
+        ],
+        "files": [
+          {
+            "file_title": "Vzn_7_2025_o_nazve_ulic.pdf",
+            "file_url": "https://www.detva.sk/download_file_f.php?id=2346906"
+          }
+        ]
+      },
+      {
+        "title": "VZN 6/2025 o miestnych daniach a miestnom poplatku za komunálne odpady a drobné stavebné odpady",
+        "note": "6/2025",
+        "type": "účinné",
+        "color": "#BFFFBF",
+        "dates": [
+          {
+            "title": "Návrh",
+            "date": "25.11.2025"
+          },
+          {
+            "title": "Schválené",
+            "date": "18.12.2025"
+          },
+          {
+            "title": "Účinné",
+            "date": "2.1.2026"
+          },
+          {
+            "title": "Vyhlásené",
+            "date": "19.12.2025"
+          },
+          {
+            "title": "Pridané",
+            "date": "25.11.2025"
+          },
+          {
+            "title": "Novelizuje",
+            "date": "4/2023",
+            "id": "38181"
+          }
+        ],
+        "files": [
+          {
+            "file_title": "Vzn_6_2025_o_miestnych_daniach_a_poplatku_za_ko.pdf",
+            "file_url": "https://www.detva.sk/download_file_f.php?id=2343799"
+          }
+        ]
+      }
+  ]}
+}
