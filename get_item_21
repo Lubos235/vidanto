@@ -1,0 +1,39 @@
+--- detail zasadnutia ---
+https://slovensko.virtualne.sk/mob-app-api-v/get_item&id_module=20&id_city=88&id_item=44800
+
+- parameter "id_item" je "id" vzn
+---------------------------------------------
+
+{
+  "error_code": "",
+  "data": {
+    "title": "VZN 7/2025 o názve ulíc a iných verejných priestranstiev",
+    "note": "7/2025",
+    "type": "zrušené",
+    "color": "#BFFFBF",
+    "dates": [
+      {
+        "title": "Návrh",
+        "date": "2.4.2026"
+      },
+      {
+        "title": "Účinné",
+        "date": "4.4.2026"
+      },
+      {
+        "title": "Vyhlásené",
+        "date": "3.4.2026"
+      },
+      {
+        "title": "Pridané",
+        "date": "2.12.2025"
+      }
+    ],
+    "files": [
+      {
+        "file_title": "Vzn_7_2025_o_nazve_ulic.pdf",
+        "file_url": "https://www.detva.sk/download_file_f.php?id=2346906"
+      }
+    ]
+  }
+}
